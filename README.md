@@ -1,4 +1,4 @@
-Develop Branch
+[![Build Status](https://travis-ci.com/mbauer-0805/Scrum-Developer.svg?branch=master)](https://travis-ci.com/mbauer-0805/Scrum-Developer)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
