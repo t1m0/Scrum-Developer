@@ -3,7 +3,7 @@
 # How to contribute
 1. Clone the repository
 ```
-git clone https://github.com/mbauer-0805/Scrum-Developer.git
+git clone https://github.com/mbauer-0805/Scrum-Developer.git -b develop
 ```
 2. Install required dependencies
 ```
