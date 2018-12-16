@@ -22,7 +22,8 @@ npm test
 git checkout -b branch-[issue-id]
 ```
 **6.** Perform your change
-**7.** Build and test as explained in step 3. & 4.
+**7.** Build and test as explained in step **3.** & **4.** 
+
 **8.** Add the new or changed files
 ```
 git add [file name]
