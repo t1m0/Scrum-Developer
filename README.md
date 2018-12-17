@@ -22,6 +22,7 @@ npm test
 git checkout -b branch-[issue-id]
 ```
 **6.** Perform your change
+
 **7.** Build and test as explained in step **3.** & **4.** 
 
 **8.** Add the new or changed files
@@ -38,4 +39,8 @@ git push origin branch-[issue-id]
 ```
 **11.** Create a pull request
 https://github.com/mbauer-0805/Scrum-Developer/compare
+
 **12.** Once your change is approved by your can merge the pull request
+
+# Git Cheat Sheet
+https://gist.github.com/t1m0/04ba1acb9b3418ee251732d4bf0878bf
