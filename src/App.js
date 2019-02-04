@@ -16,7 +16,7 @@ class App extends Component {
 					<h1>Scrum Master</h1>
 				</div>
 				<div className="content-description">
-				<img src='/mm.jpg' alt="logo" />
+				<img src='/kk.jpg' alt="logo" />
 				</div>
 			</div>
 			<div className="content-wrapper">
@@ -28,6 +28,37 @@ class App extends Component {
 					
 				</div>
 			</div>
+			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>Sprints</h1>
+				</div>
+				<div className="content-description">
+				<img src='/sprints.jpg' alt="logo" />
+					
+				</div>
+			</div>
+			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>Sprint Retrospective</h1>
+				</div>
+				<div className="content-description">
+				<img src='/david.jpg' alt="logo" />
+					
+				</div>
+			</div>
+			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>Sprint Review</h1>
+				</div>
+				<div className="content-description">
+				<img src='/sr.jpg' alt="logo" />
+					
+				</div>
+			</div>
+			
 		</div>
 	
 		
