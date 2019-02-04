@@ -9,7 +9,7 @@ NodeJS: https://nodejs.org/en/download/
 
 **1.** Clone the repository
 ```
-git clone https://github.com/mbauer-0805/Scrum-Developer.git -b develop
+git clone https://github.com/t1m0/Scrum-Developer.git -b develop
 ```
 **2.** Install required dependencies
 ```
