@@ -16,7 +16,7 @@ class App extends Component {
 					<h1>Scrum Master</h1>
 				</div>
 				<div className="content-description">
-				<img src='/nn.jpg' alt="logo" />
+				<img src='/mm.jpg' alt="logo" />
 				</div>
 			</div>
 			<div className="content-wrapper">
