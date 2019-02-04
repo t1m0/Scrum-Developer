@@ -6,14 +6,28 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 className="Pagetitle">SCRUM TEAM</h1>
-
+        <h1 className="Pagetitle">Working Agile - SCRUM </h1>
         <header className="App-header">
-          <h2 className="App-title">A Scrum team consists of:</h2>
-          <p>Scrum Master</p>
-          <p>Product Owner (PO)</p>
-          <p>Development Team</p>
+          <h1 className="App-title">Learn more about Scrum!</h1>
+          <ul class="nav">
+            <p class="nav-item">
+              <a class="nav-link active" href="#ScrumTeam">
+                Scrum Team
+              </a>
+            </p>
+            <p class="nav-item">
+              <a class="nav-link active" href="#Ceremonies">
+                Ceremonies
+              </a>
+            </p>
+            <p class="nav-item">
+              <a class="nav-link active" href="#Artifacts">
+                Artifacts
+              </a>
+            </p>
+          </ul>
         </header>
+        <h2 id="ScrumTeam">SCRUM TEAM</h2>
         <img src="./images/team.png" />
         <h3 className="App-intro">Characteristics of a Scrum Team</h3>
         <div>
@@ -89,6 +103,44 @@ class App extends Component {
           organize and manage their own work. The resulting synergy optimizes
           the Development Team’s overall efficiency and effectiveness.
         </div>
+        <h2 id="Ceremonies">CEREMONIES</h2>
+        <h3 className="App-intro">Daily Sprint</h3>
+        <p>
+          The Daily Scrum is a <b>15-minute</b> time-boxed event for the
+          Development Team to <b>synchronize activities and create a plan</b>{" "}
+          for the next 24 hours.{" "}
+        </p>
+        <img src="./images/daily.png" />
+        <table className="Daily">
+          <tr>
+            <th>WHO?</th>
+            <td>Development Team, Product Owner optional</td>
+          </tr>
+          <tr>
+            <th>WHEN?</th>
+            <td>If possible, every day at the same place</td>
+          </tr>
+          <tr>
+            <th>WHERE?</th>
+            <td>If possible, every day at the same time</td>
+          </tr>
+          <tr>
+            <th>WHAT?</th>
+            <td>
+              {" "}
+              <ol>
+                <li>What did you do yesterday?</li>
+                <li>What will you do today?</li>
+                <li>Are there any impediments in your way?</li>
+              </ol>
+            </td>
+          </tr>
+          <tr>
+            <th>WHY?</th>
+            <td>Transparency, inspection, and adaptation</td>
+          </tr>
+        </table>
+        <h2 id="Artifacts">ARTIFACTS</h2>
       </div>
     );
   }
