@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/mbauer-0805/Scrum-Developer.svg?branch=master)](https://travis-ci.com/mbauer-0805/Scrum-Developer)
+[![Build Status](https://travis-ci.org/t1m0/Scrum-Developer?branch=master)](https://travis-ci.org/t1m0/Scrum-Developer)
 
 # How to contribute
 **0.** Install prerequisites
