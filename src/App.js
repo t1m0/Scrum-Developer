@@ -69,6 +69,15 @@ class App extends Component {
 				</div>
 			</div>
 			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>Increment</h1>
+				</div>
+				<div className="content-description">
+				<img src='/ir.jpg' alt="logo" />
+					
+				</div>
+			</div>
 		</div>
 	
 		
