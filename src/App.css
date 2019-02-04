@@ -46,3 +46,20 @@ ul {
   margin-right: 0;
   padding-left: 40px;
 }
+
+.Daily {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.nav-link .active {
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
