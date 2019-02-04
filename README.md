@@ -1,6 +1,12 @@
 [![Build Status](https://travis-ci.com/mbauer-0805/Scrum-Developer.svg?branch=master)](https://travis-ci.com/mbauer-0805/Scrum-Developer)
 
 # How to contribute
+**0.** Install prerequisites
+
+Git: https://git-scm.com/
+
+NodeJS: https://nodejs.org/en/download/
+
 **1.** Clone the repository
 ```
 git clone https://github.com/mbauer-0805/Scrum-Developer.git -b develop
