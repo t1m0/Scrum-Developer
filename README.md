@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/t1m0/Scrum-Developer.svg?branch=master)](https://travis-ci.org/t1m0/Scrum-Developer)
+[![Build Status](https://travis-ci.org/t1m0/Scrum-Developer.svg?branch=develop)](https://travis-ci.org/t1m0/Scrum-Developer)
 
 # How to contribute
 **0.** Install prerequisites
@@ -9,7 +9,7 @@ NodeJS: https://nodejs.org/en/download/
 
 **1.** Clone the repository
 ```
-git clone https://github.com/mbauer-0805/Scrum-Developer.git -b develop
+git clone https://github.com/t1m0/Scrum-Developer.git -b develop
 ```
 **2.** Install required dependencies
 ```
