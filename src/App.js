@@ -185,6 +185,39 @@ class App extends Component {
             height="300"
           />
         </div>
+        <h3>Definition of Done (DoD)</h3>
+        <img
+          className="imgDoD"
+          src="./images/defDone.png"
+          alt="Difinition of Done"
+          height="400"
+        />
+        <table className="DoD">
+          <tr>
+            <th>Examples of Components in DoD</th>
+          </tr>
+          <tr>
+            <td>Code Complete</td>
+          </tr>
+          <tr>
+            <td>Test Complete</td>
+          </tr>
+          <tr>
+            <td>Approved by Product Owner</td>
+          </tr>
+          <tr>
+            <td>Unit tests written and executed</td>
+          </tr>
+          <tr>
+            <td>Integration tested</td>
+          </tr>
+          <tr>
+            <td>Performance tested</td>
+          </tr>
+          <tr>
+            <td>Documented</td>
+          </tr>
+        </table>
 
         <h2 id="Ceremonies">CEREMONIES</h2>
         <h3 id="Daily" className="App-intro">
