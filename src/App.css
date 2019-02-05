@@ -107,3 +107,14 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.imgDoD {
+  margin-bottom: 20px;
+}
+.DoD {
+  margin: 0 auto;
+}
+.DoD td {
+  padding: 5px;
+  margin: 10;
+}

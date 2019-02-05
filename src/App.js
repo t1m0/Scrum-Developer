@@ -34,7 +34,7 @@ class App extends Component {
               <a href="#ProductBacklog">Product Backlog</a>
               <a href="#ProductBacklogItem">Product Backlog Item</a>
               <a href="#SprintBacklog">Spring Backlog</a>
-              <a href="#Definition of Done">Definition of Done</a>
+              <a href="#DefinitionofDone">Definition of Done</a>
             </div>
           </li>
           <li class="dropdown">
@@ -242,7 +242,40 @@ class App extends Component {
           width="600"
           height="300"
         />
-
+        <h3 id="DefinitionofDone">Definition of Done (DoD)</h3>
+        <img
+          className="imgDoD"
+          src="./images/defDone.png"
+          alt="Difinition of Done"
+          height="400"
+        />
+        <table className="DoD">
+          <tr>
+            <th>Examples of Components in DoD</th>
+          </tr>
+          <tr>
+            <td>Code Complete</td>
+          </tr>
+          <tr>
+            <td>Test Complete</td>
+          </tr>
+          <tr>
+            <td>Approved by Product Owner</td>
+          </tr>
+          <tr>
+            <td>Unit tests written and executed</td>
+          </tr>
+          <tr>
+            <td>Integration tested</td>
+          </tr>
+          <tr>
+            <td>Performance tested</td>
+          </tr>
+          <tr>
+            <td>Documented</td>
+          </tr>
+        </table>
+        >>>>>>> 747176d8da9954994515d2b09b3be6621da4a950
         <h2 id="Ceremonies">CEREMONIES</h2>
         <h3 id="Daily" className="App-intro">
           Daily Scrum
