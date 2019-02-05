@@ -118,3 +118,8 @@ li.dropdown {
   padding: 5px;
   margin: 10;
 }
+
+li a {
+  display: block;
+  width: 60px;
+}
