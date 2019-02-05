@@ -8,33 +8,13 @@ class App extends Component {
       <div className="App">
         <ul>
           <li class="dropdown">
-            <a href="#ScrumTeam" class="dropbtn">
-              Scrum Team
+            <a href="#ScrumFramework" class="dropbtn">
+              Scrum Framework
             </a>
             <div class="dropdown-content">
-              <a href="#ScrumMaster">Srum Master</a>
-              <a href="#ProductOwner">Product Owner</a>
-              <a href="#DevelopmentTeam">Development Team</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="#Ceremonies" class="dropbtn">
-              Ceremonies
-            </a>
-            <div class="dropdown-content">
-              <a href="#Daily">Daily Scrum</a>
-              <a href="#SprintPlanning">Sprint Planning</a>
-            </div>
-          </li>
-          <li class="dropdown">
-            <a href="#Artifacts" class="dropbtn">
-              Artifacts
-            </a>
-            <div class="dropdown-content">
-              <a href="#ProductBacklog">Product Backlog</a>
-              <a href="#ProductBacklogItem">Product Backlog Item</a>
-              <a href="#SprintBacklog">Spring Backlog</a>
-              <a href="#DefinitionofDone">Definition of Done</a>
+              <a href="#ScrumTeam">Scrum Team</a>
+              <a href="#Ceremonies">Ceremonies</a>
+              <a href="#Artifacts">Artifacts</a>
             </div>
           </li>
           <li class="dropdown">
@@ -42,7 +22,41 @@ class App extends Component {
               Application Life Cycle
             </a>
             <div class="dropdown-content">
-              <a href="#">Software Version Control</a>
+              <a href="#ProductBacklogItem">Product Backlog Item</a>
+              <a href="#SoftwareVersionControl">Software Version Control</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#TechnicalEnhancement" class="dropbtn">
+              Technical Enhancement
+            </a>
+            <div class="dropdown-content">
+              <a href="#CommonCodeBase">Establish common code base</a>
+              <a href="BDUF">BDUF</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">
+              Emergent Architecture
+            </a>
+            <div class="dropdown-content">
+              <a href="#BDUF" />
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">
+              Quality Code
+            </a>
+            <div class="dropdown-content">
+              <a href="#" />
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#T" class="dropbtn">
+              Agile Testing
+            </a>
+            <div class="dropdown-content">
+              <a href="#" />
             </div>
           </li>
         </ul>
@@ -53,9 +67,11 @@ class App extends Component {
           the Professional Scrum Developer Certification <b>(PSD)</b>. You can
           either use the Navigationbar at the top or scroll through the page.
         </p>
-        <h2 id="ScrumTeam">SCRUM TEAM</h2>
+        <h2 id="ScrumFramework">SCRUM FRAMEWORK</h2>
         <img src="./images/team.png" />
-        <h3 className="App-intro">Characteristics of a Scrum Team</h3>
+        <h3 id="ScrumTeam" className="App-intro">
+          Scrum Team
+        </h3>
         <div>
           Within the Scrum Framework all work delivered to the customer is done
           by dedicated Scrum Teams. A Scrum Team is a collection of individuals
@@ -172,52 +188,7 @@ class App extends Component {
             </tr>
           </table>
         </div>
-        <div>
-          <h3 className="App-intro">Product Backlog Item</h3>
-          <p>
-            In Scrum, a product backlog item ("PBI", "backlog item", or "item")
-            is a unit of work small enough to be completed by a team in one
-            Sprint iteration. Backlog items are decomposed into one or more
-            tasks. <br />
-            The Development Team is responsible for all estimates. The Product
-            Owner may influence the Development Team by helping it understand
-            and select trade-offs, but the people who will perform the work make
-            the final estimate.
-            <br />
-          </p>
-          <p>
-            <table>
-              <tr>
-                <th>
-                  <img
-                    src="PBI.jpg"
-                    alt="Product Backlog Item"
-                    width="400"
-                    height="300"
-                  />
-                </th>
-                <th align="left">
-                  <ul>
-                    <li>
-                      --Each PBI has to be estimated by the dev team. Items of
-                      different sizes are added to the Product Backlog
-                    </li>
 
-                    <li>
-                      --Then we check the items on the top of the Product
-                      Backlog, and if they are large, we’ll break them down into
-                      smaller items
-                    </li>
-                    <li>
-                      --We leave the large items on the bottom of the Product
-                      Backlog as they are for now.
-                    </li>
-                  </ul>
-                </th>
-              </tr>
-            </table>
-          </p>
-        </div>
         <h3 className="App-intro" id="SprintBacklog">
           Sprint Backlog
         </h3>
@@ -275,7 +246,6 @@ class App extends Component {
             <td>Documented</td>
           </tr>
         </table>
-        >>>>>>> 747176d8da9954994515d2b09b3be6621da4a950
         <h2 id="Ceremonies">CEREMONIES</h2>
         <h3 id="Daily" className="App-intro">
           Daily Scrum
@@ -346,6 +316,64 @@ class App extends Component {
           work is selected from the Product Backlog and pulled into the Sprint
           Backlog.
         </div>
+        <div>
+          <h2 id="ApplicationLifeCycle">APPLICATION LIFE CYCLE</h2>
+        </div>
+
+        <div>
+          <h3 id="ProductBacklogItem" className="App-intro">
+            Product Backlog Item
+          </h3>
+          <p>
+            In Scrum, a product backlog item ("PBI", "backlog item", or "item")
+            is a unit of work small enough to be completed by a team in one
+            Sprint iteration. Backlog items are decomposed into one or more
+            tasks. <br />
+            The Development Team is responsible for all estimates. The Product
+            Owner may influence the Development Team by helping it understand
+            and select trade-offs, but the people who will perform the work make
+            the final estimate.
+            <br />
+          </p>
+          <p>
+            <table>
+              <tr>
+                <th>
+                  <img
+                    src="PBI.jpg"
+                    alt="Product Backlog Item"
+                    width="400"
+                    height="300"
+                  />
+                </th>
+                <th align="left">
+                  <ul>
+                    <li>
+                      --Each PBI has to be estimated by the dev team. Items of
+                      different sizes are added to the Product Backlog
+                    </li>
+
+                    <li>
+                      --Then we check the items on the top of the Product
+                      Backlog, and if they are large, we’ll break them down into
+                      smaller items
+                    </li>
+                    <li>
+                      --We leave the large items on the bottom of the Product
+                      Backlog as they are for now.
+                    </li>
+                  </ul>
+                </th>
+              </tr>
+            </table>
+          </p>
+        </div>
+        <div>
+          <h2 id="TechnicalEnhancement">TECHNICAL ENHANCEMENT</h2>
+        </div>
+        <h3 id="BDUF">
+          BDUF (<i>B</i>ig <i>D</i>esign <i>U</i>p <i>F</i>ront)
+        </h3>
       </div>
     );
   }
