@@ -24,6 +24,7 @@ class App extends Component {
             <div class="dropdown-content">
               <a href="#ProductBacklogItem">Product Backlog Item</a>
               <a href="#SoftwareVersionControl">Software Version Control</a>
+              <a href="#branch-strategy">Branch Strategy</a>
             </div>
           </li>
           <li class="dropdown">
@@ -399,6 +400,17 @@ class App extends Component {
             </table>
           </p>
         </div>
+
+        <h3 id="branch-strategy">Branch Strategy in Agile</h3>
+        <img src="./images/branchStrategy.png" height="400px" />
+        <h4>Why branch?</h4>
+        <p>The team can easily collaborate in a central code base!</p>
+        <p>
+          It prevents the product from instability from features under
+          construction.
+        </p>
+        <h3>What is a branch?</h3>
+        <p>It is a copy of a code base at that point of time</p>
         <div>
           <h2 id="TechnicalEnhancement">TECHNICAL ENHANCEMENT</h2>
         </div>
