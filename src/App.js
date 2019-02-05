@@ -428,6 +428,40 @@ Version control protects source code from both catastrophe and the casual degrad
           Backlog.
 
         </div>
+
+        <div>
+        <h3 id="CommitStandards" className="App-intro">
+            Commit Standards
+          </h3>
+        <p>
+          All users of GIT should follow the same guideline for commiting. This makes it easier to understand why there is a commit for all
+          participants. <br></br>
+          The <b>Syntax</b> should look like this:
+        </p>
+        <table align="center">
+          <tr>
+            <th>
+              <img
+                  src="syntax.PNG"
+                  alt="Syntax"
+                  width="317"
+                  height="120"
+                />
+            </th>
+            <th>
+            <img
+                  src="types.jpg"
+                  alt="Types"
+                  width="800"
+                  height="300"
+                />
+            </th>
+          </tr>
+        </table>
+        
+
+        </div>
+
       </div>
     );
   }
