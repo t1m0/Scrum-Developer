@@ -113,6 +113,16 @@ class App extends Component {
 	
 		    </div>
       </div>
+
+      <div className="content-wrapper">
+				<div className="content-header">
+					<h1>Fit for Purpose</h1>
+				</div>
+				<div className="content-description">
+				<img src='/ffp.jpg' alt="logo" />
+					
+				</div>
+			</div>
 	  </div>
     );
   }
