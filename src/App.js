@@ -44,11 +44,11 @@ class App extends Component {
             </div>
           </li>
           <li class="dropdown">
-            <a href="#" class="dropbtn">
+            <a href="#QualityCode" class="dropbtn">
               Quality Code
             </a>
             <div class="dropdown-content">
-              <a href="#" />
+              <a href="#CommitStandards">Commit Standards</a>
             </div>
           </li>
           <li class="dropdown">
@@ -372,39 +372,6 @@ class App extends Component {
           </p>
         </div>
 
-        <div>
-        <h3 id="CommitStandards" className="App-intro">
-            Commit Standards
-          </h3>
-        <p>
-          All users of GIT should follow the same guideline for commiting. This makes it easier to understand why there is a commit for all
-          participants. <br></br>
-          The <b>Syntax</b> should look like this:
-        </p>
-        <table align="center">
-          <tr>
-            <th>
-              <img
-                  src="syntax.PNG"
-                  alt="Syntax"
-                  width="317"
-                  height="120"
-                />
-            </th>
-            <th>
-            <img
-                  src="types.jpg"
-                  alt="Types"
-                  width="800"
-                  height="300"
-                />
-            </th>
-          </tr>
-        </table>
-        
-
-        </div>
-
         <div align="center">
           <h3 id="SoftwareVersionControl" className="App-intro">
             Software Version Control
@@ -493,6 +460,7 @@ class App extends Component {
         </p>
         <img src="./images/bduf.png" />
 
+
         <div align="center">
         <h3 className="App-intro">Branching vs. Merging</h3>
         <p>
@@ -564,6 +532,30 @@ $ git merge new_feature
 
 </div>
 
+
+
+        <div>
+          <h2 id="QualityCode">QUALITY CODE</h2>
+          <h3 id="CommitStandards" className="App-intro">
+            Commit Standards
+          </h3>
+          <p>
+            All users of GIT should follow the same guideline for commiting.
+            This makes it easier to understand why there is a commit for all
+            participants. <br />
+            The <b>Syntax</b> should look like this:
+          </p>
+          <table align="center">
+            <tr>
+              <th>
+                <img src="syntax.PNG" alt="Syntax" width="317" height="120" />
+              </th>
+              <th>
+                <img src="types.jpg" alt="Types" width="800" height="300" />
+              </th>
+            </tr>
+          </table>
+        </div>
 
       </div>
     );
