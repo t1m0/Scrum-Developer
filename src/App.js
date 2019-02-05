@@ -61,7 +61,10 @@ class App extends Component {
             </div>
           </li>
         </ul>
-        <h1 className="Pagetitle">Working Agile - SCRUM </h1>
+        <img src="./images/logo.png" width="200" height="150" />
+        <h1 className="Pagetitle" align="center">
+          Working Agile - SCRUM{" "}
+        </h1>
         <p>
           This page is for everyone who wants to get a deeper understanding of
           how working agile with SCRUM works. You can also use it to prepare for
