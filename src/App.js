@@ -87,15 +87,11 @@ class App extends Component {
           within the team follows a common goal, adheres the same norm and rules
           and shows respect to each other.
         </p>
-        <h3 className="App-intro" id="ScrumMaster">
-          Scrum Master
-        </h3>
+
         <div>
-          A scrum master is the facilitator for an agile development team. Scrum
-          is a methodology that allows a team to self-organize and make changes
-          quickly, in accordance with agile principles. The scrum master manages
-          the process for how information is exchanged.{" "}
+          {/* ++++++++++++++++++ SCURM MASTER: INSERT HERE************************* */}
         </div>
+
         <h3 className="App-intro" id="ProductOwner">
           Product Owner
         </h3>
@@ -141,14 +137,15 @@ class App extends Component {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development Team to work from a
           different set of requirements.
         </p>
-        <h3 className="App-intro" id="DevelopmentTeam">
-          Development Team
-        </h3>
+
         <div>
-          Development Teams are structured and empowered by the organization to
-          organize and manage their own work. The resulting synergy optimizes
-          the Development Team’s overall efficiency and effectiveness.
+          {/* ++++++++++++++++++ DEVELOPMENT TEAM: INSERT HERE************************* */}
         </div>
+
+        <div>
+          {/* ++++++++++++++++++ SCRUM VALUES: INSERT HERE************************* */}
+        </div>
+
         <h2 id="Artifacts">ARTIFACTS</h2>
         <div align="center">
           <h3 className="App-intro" id="ProductBacklog">
@@ -217,6 +214,11 @@ class App extends Component {
           width="600"
           height="300"
         />
+
+        <div>
+          {/* ++++++++++++++++++ INCREMENT: INSERT HERE************************* */}
+        </div>
+
         <h3 id="DefinitionofDone">Definition of Done (DoD)</h3>
         <img
           className="imgDoD"
@@ -251,6 +253,11 @@ class App extends Component {
           </tr>
         </table>
         <h2 id="Ceremonies">CEREMONIES</h2>
+
+        <div>
+          {/* ++++++++++++++++++ THE SPRINT: INSERT HERE************************* */}
+        </div>
+
         <h3 id="Daily" className="App-intro">
           Daily Scrum
         </h3>
@@ -323,6 +330,15 @@ class App extends Component {
           work is selected from the Product Backlog and pulled into the Sprint
           Backlog.
         </div>
+
+        <div>
+          {/* ++++++++++++++++++ SPRING REVIEW: INSERT HERE************************* */}
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ SPRING RETROSPECTIVE: INSERT HERE************************* */}
+        </div>
+
         <div>
           <h2 id="ApplicationLifeCycle">APPLICATION LIFE CYCLE</h2>
         </div>
@@ -374,6 +390,22 @@ class App extends Component {
               </tr>
             </table>
           </p>
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ BURN DOWN: INSERT HERE************************* */}
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ BURN UP: INSERT HERE************************* */}
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ CONTINUOUS INTEGRATION: INSERT HERE************************* */}
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ USER STORY: INSERT HERE************************* */}
         </div>
 
         <div align="center">
@@ -486,6 +518,19 @@ class App extends Component {
           </div>
           <h2 id="EmergentArchitecture">Emergent Architecture</h2>
         </div>
+
+        <div>
+          {/* ++++++++++++++++++ EMERGENT ARCHITECTURE: INSERT HERE************************* */}
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ FIT FOR PURPOSE: INSERT HERE************************* */}
+        </div>
+
+        <div>
+          {/* ++++++++++++++++++ ARCHITECTURE HAS NO VALUE: INSERT HERE************************* */}
+        </div>
+
         <h3 id="BDUF">
           BDUF (<i>B</i>ig <i>D</i>esign <i>U</i>p <i>F</i>ront)
         </h3>
@@ -546,6 +591,11 @@ class App extends Component {
 
         <div>
           <h2 id="QualityCode">QUALITY CODE</h2>
+
+          <div>
+            {/* ++++++++++++++++++ BUILD AUTOMATION: INSERT HERE************************* */}
+          </div>
+
           <h3 id="CommitStandards" className="App-intro">
             Commit Standards
           </h3>
