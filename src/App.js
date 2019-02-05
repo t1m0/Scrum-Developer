@@ -123,29 +123,18 @@ class App extends Component {
 				</div>
 	
 		    </div>
-      </div>
 
-      <div className="content-wrapper">
+			<div className="content-wrapper">
 				<div className="content-header">
-					<h1>Fit for Purpose</h1>
+					<h1>Architecture has no Value</h1>
 				</div>
 				<div className="content-description">
-				<img src='/ffp.jpg' alt="logo" />
+				<img src='/ahnv.jpg' alt="logo" />
 					
 				</div>
-		</div>
-		
-		 <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Emergent Architecture</h1>
-				</div>
-				<div className="content-description">
-				<img src='/Architecture_Emergent.jpg' alt="logo" />
-					
-				</div>
-		</div>
-			
-			
+	
+		    </div>
+      </div>
 	  </div>
     );
   }
