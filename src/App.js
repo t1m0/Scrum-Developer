@@ -173,31 +173,76 @@ class App extends Component {
           </table>
         </div>
         <div>
-          <h3 className="App-intro" id="SprintBacklog">
-            Sprint Backlog
-          </h3>
+          <h3 className="App-intro">Product Backlog Item</h3>
           <p>
-            The Sprint Backlog is the set of Product Backlog items selected for
-            the Sprint, plus a plan for delivering the product Increment and
-            realizing the Sprint Goal. The Sprint Backlog makes visible all the
-            work that the Development Team identifies as necessary to meet the
-            Sprint Goal. To ensure continuous improvement, it includes at least
-            one high priority process improvement identified in the previous
-            Retrospective meeting. The Sprint Backlog is a plan with enough
-            detail that changes in progress can be understood in the Daily
-            Scrum. The Development Team modifies the Sprint Backlog throughout
-            the Sprint. Only the Development Team can change its Sprint Backlog
-            during a Sprint. The Sprint Backlog is a highly visible, real-time
-            picture of the work that the Development Team plans to accomplish
-            during the Sprint, and it belongs solely to the Development Team.
+            In Scrum, a product backlog item ("PBI", "backlog item", or "item")
+            is a unit of work small enough to be completed by a team in one
+            Sprint iteration. Backlog items are decomposed into one or more
+            tasks. <br />
+            The Development Team is responsible for all estimates. The Product
+            Owner may influence the Development Team by helping it understand
+            and select trade-offs, but the people who will perform the work make
+            the final estimate.
+            <br />
           </p>
-          <img
-            src="CN2.png"
-            alt="SprintBacklog Kanban"
-            width="600"
-            height="300"
-          />
+          <p>
+            <table>
+              <tr>
+                <th>
+                  <img
+                    src="PBI.jpg"
+                    alt="Product Backlog Item"
+                    width="400"
+                    height="300"
+                  />
+                </th>
+                <th align="left">
+                  <ul>
+                    <li>
+                      --Each PBI has to be estimated by the dev team. Items of
+                      different sizes are added to the Product Backlog
+                    </li>
+
+                    <li>
+                      --Then we check the items on the top of the Product
+                      Backlog, and if they are large, we’ll break them down into
+                      smaller items
+                    </li>
+                    <li>
+                      --We leave the large items on the bottom of the Product
+                      Backlog as they are for now.
+                    </li>
+                  </ul>
+                </th>
+              </tr>
+            </table>
+          </p>
         </div>
+        <h3 className="App-intro" id="SprintBacklog">
+          Sprint Backlog
+        </h3>
+        <p>
+          The Sprint Backlog is the set of Product Backlog items selected for
+          the Sprint, plus a plan for delivering the product Increment and
+          realizing the Sprint Goal. The Sprint Backlog makes visible all the
+          work that the Development Team identifies as necessary to meet the
+          Sprint Goal. To ensure continuous improvement, it includes at least
+          one high priority process improvement identified in the previous
+          Retrospective meeting. The Sprint Backlog is a plan with enough detail
+          that changes in progress can be understood in the Daily Scrum. The
+          Development Team modifies the Sprint Backlog throughout the Sprint.
+          Only the Development Team can change its Sprint Backlog during a
+          Sprint. The Sprint Backlog is a highly visible, real-time picture of
+          the work that the Development Team plans to accomplish during the
+          Sprint, and it belongs solely to the Development Team.
+        </p>
+        <img
+          src="CN2.png"
+          alt="SprintBacklog Kanban"
+          width="600"
+          height="300"
+        />
+
         <h2 id="Ceremonies">CEREMONIES</h2>
         <h3 id="Daily" className="App-intro">
           Daily Scrum
@@ -237,35 +282,37 @@ class App extends Component {
             <td>Transparency, inspection, and adaptation</td>
           </tr>
         </table>
-        {/* <h2 id="Artifacts">ARTIFACTS</h2> */}
-        <h3 id="SprintPlanning" className="App-intro">
-          Sprint Planning
-        </h3>
-        <h4 className="App-intro">
-          <c>What is a Sprint Planning?</c>
-        </h4>
-        Before each sprint there's a <i>time-boxed event</i>, the so called
-        Sprint Planning, to plan how much work will be performed in one sprint.
-        It is time-boxed to a{" "}
-        <i>maximum of eight hours for a one-month sprint</i>. For shorter
-        sprints, the event is usually shorter. The entire team agrees to
-        <i>complete a set of product backlog items</i>. This agreement defines
-        the sprint backlog and is{" "}
-        <i>
-          based on the team’s velocity or capacity and the length of the sprint
-        </i>
-        .<h4 className="App-intro">Who is attending?</h4>
-        It's a collaborative work of the entire Scrum Team. The ScrumMaster
-        facilitates the meeting, the Product Owner clarifies the details of the
-        product backlog items and their respective acceptance criteria, and the
-        Entire Agile Team defines the work and effort necessary to meet their
-        sprint commitment.
-        <h4 className="App-intro">Why is it neccessary?</h4>
-        It answers the following questions: What can be delivered in the
-        Increment resulting from the upcoming Sprint? How will the work needed
-        to deliver the Increment be achieved? During the Sprint planning the
-        work is selected from the Product Backlog and pulled into the Sprint
-        Backlog.
+        <div>
+          <h3 id="SprintPlanning" className="App-intro">
+            Sprint Planning
+          </h3>
+          <h4 className="App-intro">
+            <c>What is a Sprint Planning?</c>
+          </h4>
+          Before each sprint there's a <i>time-boxed event</i>, the so called
+          Sprint Planning, to plan how much work will be performed in one
+          sprint. It is time-boxed to a{" "}
+          <i>maximum of eight hours for a one-month sprint</i>. For shorter
+          sprints, the event is usually shorter. The entire team agrees to
+          <i>complete a set of product backlog items</i>. This agreement defines
+          the sprint backlog and is{" "}
+          <i>
+            based on the team’s velocity or capacity and the length of the
+            sprint
+          </i>
+          .<h4 className="App-intro">Who is attending?</h4>
+          It's a collaborative work of the entire Scrum Team. The ScrumMaster
+          facilitates the meeting, the Product Owner clarifies the details of
+          the product backlog items and their respective acceptance criteria,
+          and the Entire Agile Team defines the work and effort necessary to
+          meet their sprint commitment.
+          <h4 className="App-intro">Why is it neccessary?</h4>
+          It answers the following questions: What can be delivered in the
+          Increment resulting from the upcoming Sprint? How will the work needed
+          to deliver the Increment be achieved? During the Sprint planning the
+          work is selected from the Product Backlog and pulled into the Sprint
+          Backlog.
+        </div>
       </div>
     );
   }
