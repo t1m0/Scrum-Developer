@@ -25,6 +25,7 @@ class App extends Component {
               <a href="#ProductBacklogItem">Product Backlog Item</a>
               <a href="#SoftwareVersionControl">Software Version Control</a>
               <a href="#branch-strategy">Branch Strategy</a>
+              <a href="#branchvsmerge">Branching vs. Merging</a>
             </div>
           </li>
           <li class="dropdown">
@@ -33,7 +34,6 @@ class App extends Component {
             </a>
             <div class="dropdown-content">
               <a href="#CommonCodeBase">Establish common code base</a>
-              <a href="#BDUF">BDUF</a>
             </div>
           </li>
           <li class="dropdown">
@@ -41,7 +41,7 @@ class App extends Component {
               Emergent Architecture
             </a>
             <div class="dropdown-content">
-              <a href="#BDUF" />
+              <a href="#BDUF">BDUF</a>
             </div>
           </li>
           <li class="dropdown">
@@ -412,7 +412,76 @@ class App extends Component {
         <h3>What is a branch?</h3>
         <p>It is a copy of a code base at that point of time</p>
         <div>
-          <h2 id="TechnicalEnhancement">TECHNICAL ENHANCEMENT</h2>
+          <div align="center">
+            <h3 id="branchvsmerge" className="App-intro">
+              Branching vs. Merging
+            </h3>
+            <p>
+              Git branches are effectively a pointer to a snapshot of your
+              changes. When you want to add a new feature or fix <br />
+              a bug—no matter how big or how small—you spawn a new branch to
+              encapsulate your changes. This makes it harder for <br />
+              unstable code to get merged into the main code base, and it gives
+              you the chance to clean up your future's history
+              <br />
+              before merging it into the main branch.
+              <br />
+              <table>
+                <tr>
+                  <th>
+                    <img src="b.jpg" alt="GIT" width="600" height="300" />
+                  </th>
+                  <th align="left">
+                    <img src="m.jpg" alt="GIT" width="600" height="300" />
+                  </th>
+                </tr>
+              </table>
+            </p>
+            <p>
+              The git merge command lets you take the independent lines of
+              development created by git branch and integrate them into a single
+              branch. <br />
+              Git merge will combine multiple sequences of commits into one
+              unified history. In the most frequent use cases, git merge is used
+              to combine two branches.
+            </p>
+
+            <p>
+              <table>
+                <tr>
+                  <th>
+                    <p>
+                      <h4> To create a branch called new_feature: </h4>
+                    </p>
+                    $ git branch new_feature
+                    <br />
+                    Then “check it out”:
+                    <br />
+                    $ git checkout new_feature
+                    <br />
+                    Make various modifications, and then add and commit.
+                    <br /> <br />
+                    To go back to the master branch, check it out:
+                    <br />
+                    $ git checkout master
+                    <br />
+                    To push the branch to github, use this:
+                    <br />$ git push origin new_feature
+                  </th>
+                  <th align="left">
+                    <h4> To merge a branch called new_feature: </h4>
+                    <br />
+                    <br />
+                    Switched to branch 'master'
+                    <br />
+                    $ git checkout master
+                    <br /> To merge: $ git merge new_feature
+                  </th>
+                </tr>
+              </table>
+            </p>
+          </div>
+          <h2 id="EmergentArchitecture">Emergent Architecture</h2>
         </div>
         <h3 id="BDUF">
           BDUF (<i>B</i>ig <i>D</i>esign <i>U</i>p <i>F</i>ront)
@@ -472,80 +541,6 @@ class App extends Component {
         </p>
         <img src="./images/bduf.png" />
 
-
-        <div align="center">
-        <h3 className="App-intro">Branching vs. Merging</h3>
-        <p>
-        Git branches are effectively a pointer to a snapshot of your changes. When you want to add a new feature or fix <br />
-        a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes it harder for <br />
-        unstable code to get merged into the main code base, and it gives you the chance to clean up your future's history<br />
-         before merging it into the main branch.
-
-          <br />
-          <table>
-            <tr>
-              <th>
-                <img
-                  src="b.jpg"
-                  alt="GIT"
-                  width="600"
-                  height="300"
-                />
-              </th>
-              <th align="left">
-              <img
-                  src="m.jpg"
-                  alt="GIT"
-                  width="600"
-                  height="300"
-                />
-              </th>
-            </tr>
-          </table>
-        </p>
-        <p>
-        The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. <br />
-Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches. 
-
-         </p>   
-
-    <p>
-      
-    <table>
-            <tr>
-              <th>
-              <p>
-             <h4> To create a branch called new_feature: </h4>
-             </p>
-$ git branch new_feature<br />
-Then “check it out”:<br />
-$ git checkout new_feature<br />
-Make various modifications, and then add and commit.<br /> <br />
-To go back to the master branch, check it out:<br />
-$ git checkout master<br />
-To push the branch to github, use this:<br />
-$ git push origin new_feature
-
-              </th>
-              <th align="left">
-              <h4> To merge a branch called new_feature: </h4>
-              
-              <br /><br />Switched to branch 'master'<br />
-$ git checkout master
-<br /> To merge:
-$ git merge new_feature
-
-
-              </th>
-            </tr>
-          </table>
-      
-      </p>      
-
-</div>
-
-
-
         <div>
           <h2 id="QualityCode">QUALITY CODE</h2>
           <h3 id="CommitStandards" className="App-intro">
@@ -568,7 +563,6 @@ $ git merge new_feature
             </tr>
           </table>
         </div>
-
       </div>
     );
   }
