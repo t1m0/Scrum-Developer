@@ -6,27 +6,42 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ul>
+          <li class="dropdown">
+            <a href="#ScrumTeam" class="dropbtn">
+              Scrum Team
+            </a>
+            <div class="dropdown-content">
+              <a href="#ScrumMaster">Srum Master</a>
+              <a href="#ProductOwner">Product Owner</a>
+              <a href="#DevelopmentTeam">Development Team</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#Ceremonies" class="dropbtn">
+              Ceremonies
+            </a>
+            <div class="dropdown-content">
+              <a href="#Daily">Daily Scrum</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#Artifacts:void(0)" class="dropbtn">
+              Artifacts
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Product Backlog</a>
+              <a href="#">Spring Backlog</a>
+            </div>
+          </li>
+        </ul>
         <h1 className="Pagetitle">Working Agile - SCRUM </h1>
-        <header className="App-header">
-          <h1 className="App-title">Learn more about Scrum!</h1>
-          <ul class="nav">
-            <p class="nav-item">
-              <a class="nav-link active" href="#ScrumTeam">
-                Scrum Team
-              </a>
-            </p>
-            <p class="nav-item">
-              <a class="nav-link active" href="#Ceremonies">
-                Ceremonies
-              </a>
-            </p>
-            <p class="nav-item">
-              <a class="nav-link active" href="#Artifacts">
-                Artifacts
-              </a>
-            </p>
-          </ul>
-        </header>
+        <p>
+          This page is for everyone who wants to get a deeper understanding of
+          how working agile with SCRUM works. You can also use it to prepare for
+          the Professional Scrum Developer Certification <b>(PSD)</b>. You can
+          either use the Navigationbar at the top or scroll through the page.
+        </p>
         <h2 id="ScrumTeam">SCRUM TEAM</h2>
         <img src="./images/team.png" />
         <h3 className="App-intro">Characteristics of a Scrum Team</h3>
@@ -38,23 +53,21 @@ class App extends Component {
         </div>
         <p>
           To work effectively it is important for a Scrum Team that everyone
-          within the team
+          within the team follows a common goal, adheres the same norm and rules
+          and shows respect to each other.
         </p>
-        <ul>
-          <span>
-            <li>follows a common goal</li>
-          </span>
-          <li>adheres the same norms and rules</li>
-          <li>shows respect to each other</li>
-        </ul>
-        <h3 className="App-intro">Scrum Master</h3>
+        <h3 className="App-intro" id="ScrumMaster">
+          Scrum Master
+        </h3>
         <div>
           A scrum master is the facilitator for an agile development team. Scrum
           is a methodology that allows a team to self-organize and make changes
           quickly, in accordance with agile principles. The scrum master manages
           the process for how information is exchanged.{" "}
         </div>
-        <h3 className="App-intro">Product Owner</h3>
+        <h3 className="App-intro" id="ProductOwner">
+          Product Owner
+        </h3>
         <div align="left">
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Product Owner is responsible for
@@ -97,14 +110,18 @@ class App extends Component {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development Team to work from a
           different set of requirements.
         </p>
-        <h3 className="App-intro">Development Team</h3>
+        <h3 className="App-intro" id="DevelopmentTeam">
+          Development Team
+        </h3>
         <div>
           Development Teams are structured and empowered by the organization to
           organize and manage their own work. The resulting synergy optimizes
           the Development Team’s overall efficiency and effectiveness.
         </div>
         <h2 id="Ceremonies">CEREMONIES</h2>
-        <h3 className="App-intro">Daily Sprint</h3>
+        <h3 id="Daily" className="App-intro">
+          Daily Scrum
+        </h3>
         <p>
           The Daily Scrum is a <b>15-minute</b> time-boxed event for the
           Development Team to <b>synchronize activities and create a plan</b>{" "}
