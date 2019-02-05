@@ -263,9 +263,47 @@ class App extends Component {
             </tr>
           </table>
 
-
         </p>
         </div>
+        <div align="center">
+        <h3 className="App-intro">Software Version Control</h3>
+        <p>
+        Version control systems are a category of software tools that help a software team manage changes to source code over time.<br /> 
+
+If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing <br />disruption to all team members.
+
+Version control protects source code from both catastrophe and the casual degradation of human error and unintended consequences.
+
+          <br />
+          <table>
+            <tr>
+              <th>
+                <img
+                  src="git.png"
+                  alt="GIT"
+                  width="400"
+                  height="600"
+                />
+              </th>
+              <th align="left">
+              <img
+                  src="SVC.png"
+                  alt="GIT"
+                  width="600"
+                  height="300"
+                />
+              </th>
+            </tr>
+          </table>
+        </p>
+        
+            
+      
+
+</div>
+
+
+
         </div>
     );
   }
