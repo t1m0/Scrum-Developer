@@ -79,11 +79,6 @@ class App extends Component {
 				</div>
 			</div>
 
-			
-			<div className="content-wrapper">
-				<div className="content-header">
-					<h1>User story</h1>
-
 
       <div className="content-wrapper">
 				<div className="content-header">
@@ -115,12 +110,10 @@ class App extends Component {
 				<img src='/bd.jpg' alt="logo" />
 					
 				</div>
-			</div>
-
-		</div>
 	
-		
+		    </div>
       </div>
+	  </div>
     );
   }
 }
