@@ -16,7 +16,7 @@ class App extends Component {
 					<h1>Scrum Master</h1>
 				</div>
 				<div className="content-description">
-				<img src='/kk.jpg' alt="logo" />
+				<img src='./images/kk.jpg' alt="logo" />
 				</div>
 			</div>
 			<div className="content-wrapper">
@@ -24,7 +24,7 @@ class App extends Component {
 					<h1>Development Team</h1>
 				</div>
 				<div className="content-description">
-				<img src='/dt.png' alt="logo" />
+				<img src='./images/dt.png' alt="logo" />
 					
 				</div>
 			</div>
@@ -34,7 +34,7 @@ class App extends Component {
 					<h1>Sprints</h1>
 				</div>
 				<div className="content-description">
-				<img src='/sprints.jpg' alt="logo" />
+				<img src='./images/sprints.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -44,7 +44,7 @@ class App extends Component {
 					<h1>Sprint Retrospective</h1>
 				</div>
 				<div className="content-description">
-				<img src='/david.jpg' alt="logo" />
+				<img src='./images/david.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -54,7 +54,7 @@ class App extends Component {
 					<h1>Sprint Review</h1>
 				</div>
 				<div className="content-description">
-				<img src='/sr.jpg' alt="logo" />
+				<img src='./images/sr.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -64,7 +64,7 @@ class App extends Component {
 					<h1>Scrum Values</h1>
 				</div>
 				<div className="content-description">
-				<img src='/sv.jpg' alt="logo" />
+				<img src='./images/sv.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -74,7 +74,7 @@ class App extends Component {
 					<h1>Increment</h1>
 				</div>
 				<div className="content-description">
-				<img src='/ir.jpg' alt="logo" />
+				<img src='./images/ir.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -86,7 +86,7 @@ class App extends Component {
 
 				</div>
 				<div className="content-description">
-				<img src='/us.jpg' alt="logo" />
+				<img src='./images/us.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -97,7 +97,7 @@ class App extends Component {
 					<h1>Continous Integration</h1>
 				</div>
 				<div className="content-description">
-				<img src='/cim.jpg' alt="logo" />
+				<img src='./images/cim.jpg' alt="logo" />
 					
 				</div>
 			</div>
@@ -107,7 +107,7 @@ class App extends Component {
 					<h1>Burndown- Burn up Chart</h1>
 				</div>
 				<div className="content-description">
-				<img src='/bd.jpg' alt="logo" />
+				<img src='./images/bd.jpg' alt="logo" />
 					
 				</div>
 	
@@ -118,7 +118,7 @@ class App extends Component {
 					<h1>Build Automation</h1>
 				</div>
 				<div className="content-description">
-				<img src='/ba.jpg' alt="logo" />
+				<img src='./images/ba.jpg' alt="logo" />
 					
 				</div>
 	
@@ -129,7 +129,7 @@ class App extends Component {
 					<h1>Architecture has no Value</h1>
 				</div>
 				<div className="content-description">
-				<img src='/ahnv.jpg' alt="logo" />
+				<img src='./images/ahnv.jpg' alt="logo" />
 					
 				</div>
              </div>
@@ -139,7 +139,7 @@ class App extends Component {
 					<h1>Fit for Purpose</h1>
 				</div>
 				<div className="content-description">
-				<img src='/ffp.jpg' alt="logo" />
+				<img src='./images/ffp.jpg' alt="logo" />
 					
 				</div>
 	
@@ -149,7 +149,7 @@ class App extends Component {
 					<h1>Emerging Architecture</h1>
 				</div>
 				<div className="content-description">
-				<img src='/Architecture_Emergent.jpg' alt="logo" />
+				<img src='./images/Architecture_Emergent.jpg' alt="logo" />
 					
 				</div>
 	
