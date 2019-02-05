@@ -42,7 +42,9 @@ class App extends Component {
           the Professional Scrum Developer Certification <b>(PSD)</b>. You can
           either use the Navigationbar at the top or scroll through the page.
         </p>
+
         <h2 id="ScrumTeam">SCRUM TEAM</h2>
+
         <img src="./images/team.png" />
         <h3 className="App-intro">Characteristics of a Scrum Team</h3>
         <div>
@@ -118,6 +120,72 @@ class App extends Component {
           organize and manage their own work. The resulting synergy optimizes
           the Development Team’s overall efficiency and effectiveness.
         </div>
+        <h2 id="Artifacts">ARTIFACTS</h2>
+        <div align="center">
+          <h3 className="App-intro">Product Backlog</h3>
+          <p>
+            The Product Backlog is an ordered list of everything that is known
+            to be needed in the product. <br />
+            It is the single source of requirements for any changes to be made
+            to the product. The Product Owner is responsible for
+            <br />
+            the Product Backlog, including its content, availability, and
+            ordering. A Product Backlog is never complete.
+            <br />
+            The earliest development of it lays out the initially known and
+            best-understood requirements. The Product Backlog evolves <br />
+            as the product and the environment in which it will be used evolves.
+            The Product Backlog is dynamic; it constantly changes to identify
+            what the product needs to be appropriate, competitive, and useful.
+            If a product exists, its Product Backlog also exists.
+          </p>
+
+          <table>
+            <tr>
+              <th>
+                <img
+                  src="CN1.jpg"
+                  alt="Product Owner responsibilities"
+                  width="600"
+                  height="300"
+                />
+              </th>
+              <th align="left">
+                <ul>
+                  <li>contains all requirements</li>
+                  <li>quality of the Product Backlog is very crucial</li>
+                  <li>product owner is responsible</li>
+                  <li>it is a dynamic list</li>{" "}
+                </ul>
+              </th>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <h3 className="App-intro">Sprint Backlog</h3>
+          <p>
+            The Sprint Backlog is the set of Product Backlog items selected for
+            the Sprint, plus a plan for delivering the product Increment and
+            realizing the Sprint Goal. The Sprint Backlog makes visible all the
+            work that the Development Team identifies as necessary to meet the
+            Sprint Goal. To ensure continuous improvement, it includes at least
+            one high priority process improvement identified in the previous
+            Retrospective meeting. The Sprint Backlog is a plan with enough
+            detail that changes in progress can be understood in the Daily
+            Scrum. The Development Team modifies the Sprint Backlog throughout
+            the Sprint. Only the Development Team can change its Sprint Backlog
+            during a Sprint. The Sprint Backlog is a highly visible, real-time
+            picture of the work that the Development Team plans to accomplish
+            during the Sprint, and it belongs solely to the Development Team.
+          </p>
+          <img
+            src="CN2.png"
+            alt="SprintBacklog Kanban"
+            width="600"
+            height="300"
+          />
+        </div>
+
         <h2 id="Ceremonies">CEREMONIES</h2>
         <h3 id="Daily" className="App-intro">
           Daily Scrum
@@ -157,7 +225,7 @@ class App extends Component {
             <td>Transparency, inspection, and adaptation</td>
           </tr>
         </table>
-        <h2 id="Artifacts">ARTIFACTS</h2>
+        {/* <h2 id="Artifacts">ARTIFACTS</h2> */}
       </div>
     );
   }
