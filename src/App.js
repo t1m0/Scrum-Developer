@@ -78,6 +78,36 @@ class App extends Component {
 					
 				</div>
 			</div>
+			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>User story</h1>
+				</div>
+				<div className="content-description">
+				<img src='/us.jpg' alt="logo" />
+					
+				</div>
+			</div>
+			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>Continous Integration</h1>
+				</div>
+				<div className="content-description">
+				<img src='/cim.jpg' alt="logo" />
+					
+				</div>
+			</div>
+			
+			<div className="content-wrapper">
+				<div className="content-header">
+					<h1>Burndown- Burn up Chart</h1>
+				</div>
+				<div className="content-description">
+				<img src='/bd.jpg' alt="logo" />
+					
+				</div>
+			</div>
 		</div>
 	
 		
