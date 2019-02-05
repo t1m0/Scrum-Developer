@@ -226,7 +226,47 @@ class App extends Component {
           </tr>
         </table>
         {/* <h2 id="Artifacts">ARTIFACTS</h2> */}
-      </div>
+      
+      <h2 id="Artifacts">ARTIFACTS</h2>
+      <div align="center">
+        <h3 className="App-intro">Product Backlog Item</h3>
+        <p>
+        In Scrum, a product backlog item ("PBI", "backlog item", or "item") is a unit of work small 
+        enough to be completed by a team in one Sprint iteration. Backlog items are decomposed into one or more tasks. <br />
+        The Development Team is responsible for all estimates. The Product Owner may influence the 
+        Development Team by helping it understand and select trade-offs, but the people who will 
+        perform the work make the final estimate.
+          <br />
+         
+        </p>
+        <p>
+        <table>
+            <tr>
+              <th>
+                <img
+                  src="PBI.jpg"
+                  alt="Product Backlog Item"
+                  width="400"
+                  height="300"
+                />
+              </th>
+              <th align="left">
+                <ul>
+                  <li>--Each PBI has to be estimated by the dev team. Items of different sizes are added to the Product Backlog</li>
+                  
+                  <li>--Then we check the items on the top of the Product Backlog, 
+                    and if they are large, we’ll break them down into smaller items</li>
+                  <li>--We leave the large items on the bottom of the Product Backlog as they are for now.</li>
+                  
+                </ul>
+              </th>
+            </tr>
+          </table>
+
+
+        </p>
+        </div>
+        </div>
     );
   }
 }
