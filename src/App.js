@@ -1,14 +1,12 @@
-
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import CustomComponent from "./CustomComponent.js";
 
-
 class App extends Component {
   render() {
     return (
-      <div className = "App">
+      <div className="App">
         <ul>
           <li class="dropdown">
             <a href="#ScrumFramework" class="dropbtn">
@@ -96,13 +94,13 @@ class App extends Component {
         </p>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Scrum Master</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/kk.jpg' align= "center" alt="logo" />
-				</div>
-			</div>
+            <div className="content-header">
+              <h1>Scrum Master</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/kk.jpg" align="center" alt="logo" />
+            </div>
+          </div>
         </div>
         <h3 className="App-intro" id="ProductOwner">
           Product Owner
@@ -149,19 +147,16 @@ class App extends Component {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development Team to work from a
           different set of requirements.
         </p>
-        <div>
-          
-        </div>
+        <div />
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Scrum Values</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/sv.jpg' align= "center" alt="logo" />
-					
-				</div>
-			</div>
+            <div className="content-header">
+              <h1>Scrum Values</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/sv.jpg" align="center" alt="logo" />
+            </div>
+          </div>
         </div>
         <h2 id="Artifacts">ARTIFACTS</h2>
         <div align="center">
@@ -232,14 +227,13 @@ class App extends Component {
         />
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Increment</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/ir.jpg' alt="logo" />
-					
-				</div>
-			</div>
+            <div className="content-header">
+              <h1>Increment</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/ir.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <h3 id="DefinitionofDone">Definition of Done (DoD)</h3>
         <img
@@ -277,14 +271,13 @@ class App extends Component {
         <h2 id="Ceremonies">CEREMONIES</h2>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Sprints</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/sprints.jpg' alt="logo" />
-					
-				</div>
-			</div>
+            <div className="content-header">
+              <h1>Sprints</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/sprints.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <h3 id="Daily" className="App-intro">
           Daily Scrum
@@ -357,25 +350,24 @@ class App extends Component {
           Backlog.
         </div>
         <div>
-			<div className="content-wrapper">
-				<div className="content-header">
-					<h1>Sprint Review</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/sr.jpg' alt="logo" />
-					
-				</div>
-			</div>
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Sprint Review</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/sr.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Sprint Retrospective</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/david.jpg' alt="logo" />
-			    </div>
-		</div>
+            <div className="content-header">
+              <h1>Sprint Retrospective</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/david.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <div>
           <h2 id="ApplicationLifeCycle">APPLICATION LIFE CYCLE</h2>
@@ -430,40 +422,34 @@ class App extends Component {
         </div>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Burndown- Burn up Chart</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/bd.jpg' alt="logo" />
-					
-				</div>
-	
-		    </div>
+            <div className="content-header">
+              <h1>Burndown- Burn up Chart</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/bd.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
-        
+
         <div>
-		
-			<div className="content-wrapper">
-				<div className="content-header">
-					<h1>Continous Integration</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/cim.jpg' alt="logo" />
-					
-				</div>
-			</div>
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Continous Integration</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cim.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>User Stories</h1>
-
-				</div>
-				<div className="content-description">
-				<img src='./images/us.jpg' alt="logo" />
-					
-				</div>
-			</div>
+            <div className="content-header">
+              <h1>User Stories</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/us.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <div align="center">
           <h3 id="SoftwareVersionControl" className="App-intro">
@@ -596,47 +582,41 @@ class App extends Component {
         </div>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Development Team</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/dt.png' alt="logo" />
-					
-				</div>
-			</div>
-		  <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Emerging Architecture</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/Architecture_Emergent.jpg' alt="logo" />
-					
-				</div>
-	
-		  </div>
+            <div className="content-header">
+              <h1>Development Team</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/dt.png" alt="logo" />
+            </div>
+          </div>
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Emerging Architecture</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/Architecture_Emergent.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Fit for Purpose</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/ffp.jpg' alt="logo" />
-					
-				</div>
-	
-		  </div>
+            <div className="content-header">
+              <h1>Fit for Purpose</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/ffp.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <div>
           <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Architecture has no Value</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/ahnv.jpg' alt="logo" />
-					
-				</div>
-             </div>
+            <div className="content-header">
+              <h1>Architecture has no Value</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/ahnv.jpg" alt="logo" />
+            </div>
+          </div>
         </div>
         <h3 id="BDUF">
           BDUF (<i>B</i>ig <i>D</i>esign <i>U</i>p <i>F</i>ront)
@@ -700,67 +680,64 @@ class App extends Component {
 
           <div>
             <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Build Automation</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/ba.jpg' alt="logo" />
-					
-				</div>
-	
-		    </div> 
+              <div className="content-header">
+                <h1>Build Automation</h1>
+              </div>
+              <div className="content-description">
+                <img src="./images/ba.jpg" alt="logo" />
+              </div>
+            </div>
 
-			<div>
-            <div className="content-wrapper">
-				<div className="content-header">
-					<h1>Technical Debt</h1>
-				</div>
-				<div className="content-description">
-				<img src='./images/Technical Debt.jpg' alt="logo" />
-					
-				</div>
-	
-		    </div> 
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Technical Debt</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Technical Debt.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+
+            <h3 id="CommitStandards" className="App-intro">
+              Commit Standards
+            </h3>
+            <p>
+              All users of GIT should follow the same guideline for commiting.
+              This makes it easier to understand why there is a commit for all
+              participants. <br />
+              The <b>Syntax</b> should look like this:
+            </p>
+            <table align="center">
+              <tr>
+                <th>
+                  <img
+                    src="./images/syntax.PNG"
+                    alt="Syntax"
+                    width="317"
+                    height="120"
+                  />
+                </th>
+                <th>
+                  <img
+                    src="./images/types.jpg"
+                    alt="Types"
+                    width="800"
+                    height="300"
+                  />
+                </th>
+              </tr>
+            </table>
+
+            <h3 id="codvsdev" className="App-intro">
+              Coding vs. Developing
+            </h3>
+            <p>
+              <b>Conclusion:</b> A coder could be a developer or a programmer,
+              while programmers focus more on coding towards a specific
+              applications and developers could do everything all together.
+            </p>
           </div>
-
-          <h3 id="CommitStandards" className="App-intro">
-            Commit Standards
-          </h3>
-          <p>
-            All users of GIT should follow the same guideline for commiting.
-            This makes it easier to understand why there is a commit for all
-            participants. <br />
-            The <b>Syntax</b> should look like this:
-          </p>
-          <table align="center">
-            <tr>
-              <th>
-                <img
-                  src="./images/syntax.PNG"
-                  alt="Syntax"
-                  width="317"
-                  height="120"
-                />
-              </th>
-              <th>
-                <img
-                  src="./images/types.jpg"
-                  alt="Types"
-                  width="800"
-                  height="300"
-                />
-              </th>
-            </tr>
-          </table>
-
-          <h3 id="codvsdev" className="App-intro">
-            Coding vs. Developing
-          </h3>
-          <p>
-            <b>Conclusion:</b> A coder could be a developer or a programmer,
-            while programmers focus more on coding towards a specific
-            applications and developers could do everything all together.
-          </p>
         </div>
       </div>
     );
