@@ -133,7 +133,19 @@ class App extends Component {
 				<img src='/ffp.jpg' alt="logo" />
 					
 				</div>
-			</div>
+		</div>
+		
+		 <div className="content-wrapper">
+				<div className="content-header">
+					<h1>Emergent Architecture</h1>
+				</div>
+				<div className="content-description">
+				<img src='/Architecture_Emergent.jpg' alt="logo" />
+					
+				</div>
+		</div>
+			
+			
 	  </div>
     );
   }
