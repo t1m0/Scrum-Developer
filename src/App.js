@@ -51,6 +51,10 @@ class App extends Component {
             </a>
             <div class="dropdown-content">
               <a href="#CommitStandards">Commit Standards</a>
+              <a href="#qualcodqualsof">
+                Quality Code in relation to Quality Software
+              </a>
+              <a href="#codvsdev">Coding vs. Developing</a>
             </div>
           </li>
           <li class="dropdown">
@@ -619,8 +623,16 @@ class App extends Component {
               </th>
             </tr>
           </table>
+
+          <h3 id="codvsdev" className="App-intro">
+            Coding vs. Developing
+          </h3>
+          <p>
+            <b>Conclusion:</b> A coder could be a developer or a programmer,
+            while programmers focus more on coding towards a specific
+            applications and developers could do everything all together.
+          </p>
         </div>
-        >>>>>>> CodeNinjas
       </div>
     );
   }
