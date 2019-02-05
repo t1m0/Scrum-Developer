@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  font-family: Arial;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background: linear-gradient(0.25turn, #360033, #0b8793);
   color: azure;
 }
@@ -105,4 +106,15 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.imgDoD {
+  margin-bottom: 20px;
+}
+.DoD {
+  margin: 0 auto;
+}
+.DoD td {
+  padding: 5px;
+  margin: 10;
 }
