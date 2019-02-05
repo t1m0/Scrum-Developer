@@ -1,5 +1,4 @@
 
-
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
@@ -9,7 +8,7 @@ import CustomComponent from "./CustomComponent.js";
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className = "App">
         <ul>
           <li class="dropdown">
             <a href="#ScrumFramework" class="dropbtn">
