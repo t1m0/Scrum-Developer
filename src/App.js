@@ -23,15 +23,26 @@ class App extends Component {
             </a>
             <div class="dropdown-content">
               <a href="#Daily">Daily Scrum</a>
+              <a href="#SprintPlanning">Sprint Planning</a>
             </div>
           </li>
           <li class="dropdown">
-            <a href="#Artifacts:void(0)" class="dropbtn">
+            <a href="#Artifacts" class="dropbtn">
               Artifacts
             </a>
             <div class="dropdown-content">
-              <a href="#">Product Backlog</a>
-              <a href="#">Spring Backlog</a>
+              <a href="#ProductBacklog">Product Backlog</a>
+              <a href="#ProductBacklogItem">Product Backlog Item</a>
+              <a href="#SprintBacklog">Spring Backlog</a>
+              <a href="#Definition of Done">Definition of Done</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#ApplicationLifeCycle" class="dropbtn">
+              Application Life Cycle
+            </a>
+            <div class="dropdown-content">
+              <a href="#">Software Version Control</a>
             </div>
           </li>
         </ul>
@@ -42,9 +53,7 @@ class App extends Component {
           the Professional Scrum Developer Certification <b>(PSD)</b>. You can
           either use the Navigationbar at the top or scroll through the page.
         </p>
-
         <h2 id="ScrumTeam">SCRUM TEAM</h2>
-
         <img src="./images/team.png" />
         <h3 className="App-intro">Characteristics of a Scrum Team</h3>
         <div>
@@ -122,7 +131,9 @@ class App extends Component {
         </div>
         <h2 id="Artifacts">ARTIFACTS</h2>
         <div align="center">
-          <h3 className="App-intro">Product Backlog</h3>
+          <h3 className="App-intro" id="ProductBacklog">
+            Product Backlog
+          </h3>
           <p>
             The Product Backlog is an ordered list of everything that is known
             to be needed in the product. <br />
@@ -162,7 +173,9 @@ class App extends Component {
           </table>
         </div>
         <div>
-          <h3 className="App-intro">Sprint Backlog</h3>
+          <h3 className="App-intro" id="SprintBacklog">
+            Sprint Backlog
+          </h3>
           <p>
             The Sprint Backlog is the set of Product Backlog items selected for
             the Sprint, plus a plan for delivering the product Increment and
@@ -185,7 +198,6 @@ class App extends Component {
             height="300"
           />
         </div>
-
         <h2 id="Ceremonies">CEREMONIES</h2>
         <h3 id="Daily" className="App-intro">
           Daily Scrum
@@ -214,9 +226,9 @@ class App extends Component {
             <td>
               {" "}
               <ol>
-                <li>What did you do yesterday?</li>
-                <li>What will you do today?</li>
-                <li>Are there any impediments in your way?</li>
+                <p>What did you do yesterday?</p>
+                <p>What will you do today?</p>
+                <p>Are there any impediments in your way?</p>
               </ol>
             </td>
           </tr>
@@ -226,6 +238,34 @@ class App extends Component {
           </tr>
         </table>
         {/* <h2 id="Artifacts">ARTIFACTS</h2> */}
+        <h3 id="SprintPlanning" className="App-intro">
+          Sprint Planning
+        </h3>
+        <h4 className="App-intro">
+          <c>What is a Sprint Planning?</c>
+        </h4>
+        Before each sprint there's a <i>time-boxed event</i>, the so called
+        Sprint Planning, to plan how much work will be performed in one sprint.
+        It is time-boxed to a{" "}
+        <i>maximum of eight hours for a one-month sprint</i>. For shorter
+        sprints, the event is usually shorter. The entire team agrees to
+        <i>complete a set of product backlog items</i>. This agreement defines
+        the sprint backlog and is{" "}
+        <i>
+          based on the team’s velocity or capacity and the length of the sprint
+        </i>
+        .<h4 className="App-intro">Who is attending?</h4>
+        It's a collaborative work of the entire Scrum Team. The ScrumMaster
+        facilitates the meeting, the Product Owner clarifies the details of the
+        product backlog items and their respective acceptance criteria, and the
+        Entire Agile Team defines the work and effort necessary to meet their
+        sprint commitment.
+        <h4 className="App-intro">Why is it neccessary?</h4>
+        It answers the following questions: What can be delivered in the
+        Increment resulting from the upcoming Sprint? How will the work needed
+        to deliver the Increment be achieved? During the Sprint planning the
+        work is selected from the Product Backlog and pulled into the Sprint
+        Backlog.
       </div>
     );
   }
