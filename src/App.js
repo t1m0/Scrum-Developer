@@ -78,6 +78,17 @@ class App extends Component {
 					
 				</div>
 			</div>
+
+      <div className="content-wrapper">
+				<div className="content-header">
+					<h1>User Stories</h1>
+				</div>
+				<div className="content-description">
+				<img src='/us.jpg' alt="logo" />
+					
+				</div>
+			</div>
+
 		</div>
 	
 		
