@@ -13,8 +13,8 @@ class App extends Component {
             </a>
             <div class="dropdown-content">
               <a href="#ScrumTeam">Scrum Team</a>
-              <a href="#Ceremonies">Ceremonies</a>
               <a href="#Artifacts">Artifacts</a>
+              <a href="#Ceremonies">Ceremonies</a>
             </div>
           </li>
           <li class="dropdown">
@@ -32,7 +32,7 @@ class App extends Component {
             </a>
             <div class="dropdown-content">
               <a href="#CommonCodeBase">Establish common code base</a>
-              <a href="BDUF">BDUF</a>
+              <a href="#BDUF">BDUF</a>
             </div>
           </li>
           <li class="dropdown">
@@ -285,6 +285,9 @@ class App extends Component {
             <td>Transparency, inspection, and adaptation</td>
           </tr>
         </table>
+
+        {/* <h2 id="Artifacts">ARTIFACTS</h2> */}
+
         <div>
           <h3 id="SprintPlanning" className="App-intro">
             Sprint Planning
@@ -368,12 +371,93 @@ class App extends Component {
             </table>
           </p>
         </div>
+        <div align="center">
+          <h3 id="SoftwareVersionControl" className="App-intro">
+            Software Version Control
+          </h3>
+          <p>
+            Version control systems are a category of software tools that help a
+            software team manage changes to source code over time.
+            <br />
+            If a mistake is made, developers can turn back the clock and compare
+            earlier versions of the code to help fix the mistake while
+            minimizing <br />
+            disruption to all team members. Version control protects source code
+            from both catastrophe and the casual degradation of human error and
+            unintended consequences.
+            <br />
+            <table>
+              <tr>
+                <th>
+                  <img src="git.png" alt="GIT" width="400" height="600" />
+                </th>
+                <th align="left">
+                  <img src="SVC.png" alt="GIT" width="600" height="300" />
+                </th>
+              </tr>
+            </table>
+          </p>
+        </div>
         <div>
           <h2 id="TechnicalEnhancement">TECHNICAL ENHANCEMENT</h2>
         </div>
         <h3 id="BDUF">
           BDUF (<i>B</i>ig <i>D</i>esign <i>U</i>p <i>F</i>ront)
         </h3>
+        <p>
+          Big Design Up Front (BDUF) is a <i>software development approach</i>{" "}
+          in which the program's design is to be completed and perfected before
+          that program's implementation is started.
+          <i>
+            {" "}
+            BDUF is used to indicate that the whole design solution is done
+            before execution.
+          </i>{" "}
+          (In short, BDUF is the art of doing things which shouldn’t be done).
+          It is often associated with the waterfall model of software
+          development, where there is an explicit phase of analysis prior to the
+          implementation phase. Nowadays, with the expansion of agile methods,
+          there is no longer a long analysis phase. However, we do still find
+          many BDUF attitudes in companies.
+        </p>
+        <h4>In product development:</h4>
+        <p>
+          6 months of Design Thinking | User story mapping with dozens of
+          stories | Design of all system screens before implementation
+        </p>
+        <h4>In software development:</h4>
+        <p>
+          The creation of an entire API of services before considering their
+          application | Thinking through the best possible architecture, in some
+          absurd cases even forgetting to keep an eye on the product’s objective
+          | Creating parameters for all variables, before a demand even exists
+        </p>
+        <h4>In life:</h4>
+        <p>
+          people who plan every last detail of a vacation, and who become
+          frustrated by the unexpected | people who decide that in order to find
+          love they should join a gym for a year, then spend another year
+          learning to dance and only then start going out to clubs
+        </p>
+        <h4>Hot or not?</h4>
+        <p>
+          <b>
+            + Thinking things out in advance often saves serious development
+            headaches later on, e.g. on making a particular specification
+            change. "Making this change in the spec took an hour or two. If we
+            had made this change in code, it would have added weeks to the
+            schedule." - Joel Spolsky, a popular online commentator on software
+            development
+          </b>
+        </p>
+        <p>
+          <b>
+            - Software requirement changes often and frequently. The big effort
+            spent on the full design might be obsolete when the development
+            reach halfway.
+          </b>
+        </p>
+        <img src="./images/bduf.png" />
       </div>
     );
   }
