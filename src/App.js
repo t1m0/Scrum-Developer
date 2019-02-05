@@ -109,7 +109,7 @@ class App extends Component {
             management includes:
             <div align="center">
               <img
-                src="CN.png"
+                src="./images/CN.png"
                 alt="Product Owner responsibilities"
                 width="700"
                 height="450"
@@ -172,7 +172,7 @@ class App extends Component {
             <tr>
               <th>
                 <img
-                  src="CN1.jpg"
+                  src="./images/CN1.jpg"
                   alt="Product Owner responsibilities"
                   width="600"
                   height="300"
@@ -209,7 +209,7 @@ class App extends Component {
           Sprint, and it belongs solely to the Development Team.
         </p>
         <img
-          src="CN2.png"
+          src="./images/CN2.png"
           alt="SprintBacklog Kanban"
           width="600"
           height="300"
@@ -363,7 +363,7 @@ class App extends Component {
               <tr>
                 <th>
                   <img
-                    src="PBI.jpg"
+                    src="./images/PBI.jpg"
                     alt="Product Backlog Item"
                     width="400"
                     height="300"
@@ -426,10 +426,10 @@ class App extends Component {
             <table>
               <tr>
                 <th>
-                  <img src="git.png" alt="GIT" width="400" height="600" />
+                  <img src="./images/git.png" alt="GIT" width="400" height="600" />
                 </th>
                 <th align="left">
-                  <img src="SVC.png" alt="GIT" width="600" height="300" />
+                  <img src="./images/SVC.png" alt="GIT" width="600" height="300" />
                 </th>
               </tr>
             </table>
@@ -464,10 +464,10 @@ class App extends Component {
               <table>
                 <tr>
                   <th>
-                    <img src="b.jpg" alt="GIT" width="600" height="300" />
+                    <img src="./images/b.jpg" alt="GIT" width="600" height="300" />
                   </th>
                   <th align="left">
-                    <img src="m.jpg" alt="GIT" width="600" height="300" />
+                    <img src="./images/m.jpg" alt="GIT" width="600" height="300" />
                   </th>
                 </tr>
               </table>
@@ -608,10 +608,10 @@ class App extends Component {
           <table align="center">
             <tr>
               <th>
-                <img src="syntax.PNG" alt="Syntax" width="317" height="120" />
+                <img src="./images/syntax.PNG" alt="Syntax" width="317" height="120" />
               </th>
               <th>
-                <img src="types.jpg" alt="Types" width="800" height="300" />
+                <img src="./images/types.jpg" alt="Types" width="800" height="300" />
               </th>
             </tr>
           </table>
