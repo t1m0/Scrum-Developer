@@ -698,6 +698,16 @@ class App extends Component {
                 </div>
               </div>
             </div>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Code Coverage</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Code Coverage.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
 
             <div>
               <div className="content-wrapper">
@@ -828,6 +838,17 @@ class App extends Component {
               </div>
             </div>
 			
+		<div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Unit testing</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/ut.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+
 			<div>
               <div className="content-wrapper">
                 <div className="content-header">
@@ -839,6 +860,17 @@ class App extends Component {
               </div>
             </div>
 
+          <div className="content-wrapper">
+				    <div className="content-header">
+					    <h1>Code Quality</h1>
+				    </div>
+            <div className="content-description">
+              <img src='./images/cq1.jpg' alt="logo" />
+              <br></br>
+              <img src='./images/cq2.jpg' alt="logo" />
+            </div>
+          </div>
+
           <div>
           <h3 id="Bug" className="App-intro">
               Bug Definition / Bug tackling in Jira
@@ -849,6 +881,7 @@ class App extends Component {
                     width="800"
                     height="500"
                   />
+
 
           </div>
 
