@@ -917,58 +917,53 @@ class App extends Component {
             <div className="content-header">
               <h1>Static Code Analysis</h1>
             </div>
-<<<<<<< HEAD
+
             <div className="content-description">
               <img src="./images/sca.jpg" alt="logo" />
             </div>
-=======
-			
-		<div>
-              <div className="content-wrapper">
-                <div className="content-header">
-                  <h1>Unit testing</h1>
-                </div>
-                <div className="content-description">
-                  <img src="./images/ut.jpg" alt="logo" />
-                </div>
+            <div className="content-wrapper">
+              <div className="content-header">
+                <h1>Unit testing</h1>
               </div>
-            </div>
-
-			<div>
-              <div className="content-wrapper">
-                <div className="content-header">
-                  <h1>Reporting a bug</h1>
-                </div>
-                <div className="content-description">
-                  <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
-                </div>
+              <div className="content-description">
+                <img src="./images/ut.jpg" alt="logo" />
               </div>
-            </div>
-
-          <div className="content-wrapper">
-				    <div className="content-header">
-					    <h1>Code Quality</h1>
-				    </div>
-            <div className="content-description">
-              <img src='./images/cq1.jpg' alt="logo" />
-              <br></br>
-              <img src='./images/cq2.jpg' alt="logo" />
             </div>
           </div>
 
           <div>
-          <h3 id="Bug" className="App-intro">
+            <div className="content-wrapper">
+              <div className="content-header">
+                <h1>Reporting a bug</h1>
+              </div>
+              <div className="content-description">
+                <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
+              </div>
+            </div>
+          </div>
+
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Code Quality</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cq1.jpg" alt="logo" />
+              <br />
+              <img src="./images/cq2.jpg" alt="logo" />
+            </div>
+          </div>
+
+          <div>
+            <h3 id="Bug" className="App-intro">
               Bug Definition / Bug tackling in Jira
             </h3>
             <img
-                    src="./images/bugDesc.png"
-                    alt="bugs"
-                    width="800"
-                    height="500"
-                  />
-
-
->>>>>>> 837447cb388101e96187d1608e2dc8ebf490c00c
+              src="./images/bugDesc.png"
+              alt="bugs"
+              width="800"
+              height="500"
+            />
+            >>>>>>> 837447cb388101e96187d1608e2dc8ebf490c00c
           </div>
         </div>
 
