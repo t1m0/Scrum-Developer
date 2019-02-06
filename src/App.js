@@ -933,6 +933,29 @@ class App extends Component {
           <h3 id="atdd">Acceptance Test-Driven Development</h3>
           <img src="./images/atdd.png" width="80%" />
         </div>
+
+        <div>
+        <h1 id="devAndTest" className="App-intro">
+              Developing Test &#38; Practises
+            </h1>
+            <p>
+            </p>
+            <img
+          src="./images/UnitTest.jpg"
+          alt="bugs"
+          width="800"
+          height="500"
+        />
+        <p></p>
+        <img
+          src="./images/sadhappy.jpg"
+          alt="bugs"
+          width="800"
+          height="600"
+        />
+
+
+        </div>
       </div>
     );
   }
