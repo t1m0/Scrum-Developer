@@ -67,6 +67,7 @@ class App extends Component {
           </li>
         </ul>
         <img src="./images/logo.png" width="200" height="150" />
+        <img src="./images/logo2.png" width="200" height="150" />
         <h1 className="Pagetitle" align="center">
           Working Agile - SCRUM{" "}
         </h1>
@@ -430,7 +431,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-
         <div>
           <div className="content-wrapper">
             <div className="content-header">
@@ -781,7 +781,6 @@ class App extends Component {
             </p>
           </div>
         </div>
-
         <div>
           <h3
             id="Quality Code in relation to Quality Software"
@@ -860,10 +859,32 @@ class App extends Component {
           <div>
             <div className="content-wrapper">
               <div className="content-header">
+                <h1>Unit Testing</h1>
+              </div>
+              <div className="content-description">
+                <img src="./images/ut.jpg" alt="logo" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="content-wrapper">
+              <div className="content-header">
                 <h1>Reporting a bug</h1>
               </div>
               <div className="content-description">
                 <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
+              </div>
+            </div>
+
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Unit Test F.I.R.S.T</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Unit_Test_First.jpg" alt="logo" />
+                </div>
               </div>
             </div>
           </div>
@@ -884,31 +905,45 @@ class App extends Component {
               Bug Definition / Bug tackling in Jira
             </h3>
             <img
-
-                    src="./images/bugDesc.png"
-                    alt="bugs"
-                    width="800"
-                    height="500"
-                  />
-              <p></p>
-             
-               -Since you test early and often, you quickly detect and resolve issues, bugs, and defects before they become critical<br></br>
-               -In each sprint you can put a new tag for a bug<br></br>
-               -<b>“iteration planning”</b> or <b>“sprint planning.”</b>  you can decide that each sprint, you’re going to devote some of your time to fixing bugs<br></br>
-             
-              <br></br>
-             <img
-                    src="./images/bugInScrum.jpg"
-                    alt="bugs"
-                    width="700"
-                    height="400"
-                  />
+              src="./images/bugDesc.png"
+              alt="bugs"
+              width="800"
+              height="500"
+            />
           </div>
-          <div>
-            <h3 id="atdd">Acceptance Test-Driven Development</h3>
-            <img src="./images/atdd.png" width="80%" />
 
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Clean Code</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cc.jpg" alt="logo" />
+            </div>
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
+        <p />
+        -Since you test early and often, you quickly detect and resolve issues,
+        bugs, and defects before they become critical
+        <br />
+        -In each sprint you can put a new tag for a bug
+        <br />-<b>“iteration planning”</b> or <b>“sprint planning.”</b> you can
+        decide that each sprint, you’re going to devote some of your time to
+        fixing bugs
+        <br />
+        <br />
+        <img
+          src="./images/bugInScrum.jpg"
+          alt="bugs"
+          width="700"
+          height="400"
+        />
+        <div>
+          <h3 id="atdd">Acceptance Test-Driven Development</h3>
+          <img src="./images/atdd.png" width="80%" />
         </div>
       </div>
     );
