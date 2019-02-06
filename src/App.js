@@ -815,6 +815,17 @@ class App extends Component {
               </tr>
             </table>
           </p>
+		  
+		  <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Static Code Analysis</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/sca.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
 
 
         </div>
