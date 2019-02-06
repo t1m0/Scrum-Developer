@@ -910,17 +910,7 @@ class App extends Component {
             />
           </div>
 
-          <div className="content-wrapper">
-            <div className="content-header">
-              <h1>Clean Code</h1>
-            </div>
-            <div className="content-description">
-              <img src="./images/cc.jpg" alt="logo" />
-            </div>
-          </div>
-          <br></br>
-          <br></br>
-          <br></br>
+          
         </div>
         <p />
         -Since you test early and often, you quickly detect and resolve issues,
@@ -1043,6 +1033,19 @@ class App extends Component {
 
 
         </div>
+
+        <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Clean Code</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cc.jpg" alt="logo" />
+            </div>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          
       </div>
     );
   }
