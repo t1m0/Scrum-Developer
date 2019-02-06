@@ -827,6 +827,17 @@ class App extends Component {
                 </div>
               </div>
             </div>
+			
+			<div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Reporting a bug</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
 
 
         </div>
