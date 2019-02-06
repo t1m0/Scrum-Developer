@@ -763,36 +763,40 @@ class App extends Component {
         </div>
 
         <div>
-          <h3 id="Quality Code in relation to Quality Software" align="center" className="App-intro">
-          Quality Code in relation to Quality Software
+          <h3
+            id="Quality Code in relation to Quality Software"
+            align="center"
+            className="App-intro"
+          >
+            Quality Code in relation to Quality Software
           </h3>
           <p>
-          Code quality can translate into how useful and maintainable your code is: high-quality code can be 
-          re-used and re-developed; low-quality code doesn’t last. <br />
-          Well-structured code, following language rules, is much easier to read and understand by different browsers and other <br />
-          developers. It is also more reliable and avoids future rework.
+            Code quality can translate into how useful and maintainable your
+            code is: high-quality code can be re-used and re-developed;
+            low-quality code doesn’t last. <br />
+            Well-structured code, following language rules, is much easier to
+            read and understand by different browsers and other <br />
+            developers. It is also more reliable and avoids future rework.
             <br />
           </p>
           <p>
             <table>
               <tr>
                 <th>
-                <li>
-                what is code quality?<br />
-                    </li>
+                  <li>
+                    what is code quality?
+                    <br />
+                  </li>
                 </th>
                 <th align="left">
                   <ul>
-                    <li>
-                      --•	Readability, consistency
-                    </li>
+                    <li>--• Readability, consistency</li>
+                    <br />
+                    <li>--• Predictability, reliability, and robustness</li>
                     <br />
                     <li>
-                      --•	Predictability, reliability, and robustness
-                    </li>
-                    <br />
-                    <li>
-                      --•	Maintainability and extensibility<br />
+                      --• Maintainability and extensibility
+                      <br />
                     </li>
                   </ul>
                 </th>
@@ -804,78 +808,73 @@ class App extends Component {
             <table>
               <tr>
                 <th>
-                <li>
-                Why does code quality really matter?
-                    </li>
+                  <li>Why does code quality really matter?</li>
                 </th>
                 <th align="left">
-                <ul>
+                  <ul>
                     <li>
-                      --•	Easier to review, leading to a much lower development effort
+                      --• Easier to review, leading to a much lower development
+                      effort
                     </li>
                     <br />
-                    <li>
-                      --•	Easier to understand, maintain and extend
-                    </li>
+                    <li>--• Easier to understand, maintain and extend</li>
                     <br />
-                    <li>
-                      --•	Less prone to new bugs being introduced
-                    </li>
-                    </ul>
+                    <li>--• Less prone to new bugs being introduced</li>
+                  </ul>
                 </th>
               </tr>
             </table>
           </p>
-		  
-		  <div>
-              <div className="content-wrapper">
-                <div className="content-header">
-                  <h1>Static Code Analysis</h1>
-                </div>
-                <div className="content-description">
-                  <img src="./images/sca.jpg" alt="logo" />
-                </div>
-              </div>
-            </div>
-			
-			<div>
-              <div className="content-wrapper">
-                <div className="content-header">
-                  <h1>Reporting a bug</h1>
-                </div>
-                <div className="content-description">
-                  <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
-                </div>
-              </div>
-            </div>
 
-          <div className="content-wrapper">
-				    <div className="content-header">
-					    <h1>Code Quality</h1>
-				    </div>
-            <div className="content-description">
-              <img src='./images/cq1.jpg' alt="logo" />
-              <br></br>
-              <img src='./images/cq2.jpg' alt="logo" />
+          <div>
+            <div className="content-wrapper">
+              <div className="content-header">
+                <h1>Static Code Analysis</h1>
+              </div>
+              <div className="content-description">
+                <img src="./images/sca.jpg" alt="logo" />
+              </div>
             </div>
           </div>
 
           <div>
-          <h3 id="Bug" className="App-intro">
+            <div className="content-wrapper">
+              <div className="content-header">
+                <h1>Reporting a bug</h1>
+              </div>
+              <div className="content-description">
+                <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
+              </div>
+            </div>
+          </div>
+
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Code Quality</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cq1.jpg" alt="logo" />
+              <br />
+              <img src="./images/cq2.jpg" alt="logo" />
+            </div>
+          </div>
+
+          <div>
+            <h3 id="Bug" className="App-intro">
               Bug Definition / Bug tackling in Jira
             </h3>
             <img
-                    src="./images/bugDesc.png"
-                    alt="bugs"
-                    width="800"
-                    height="500"
-                  />
-
+              src="./images/bugDesc.png"
+              alt="bugs"
+              width="800"
+              height="500"
+            />
           </div>
-
+          <div>
+            <h3>Acceptance Test-Driven Development</h3>
+            <img src="./images/atdd.png" width="80%" />
+          </div>
         </div>
-
-
       </div>
     );
   }
