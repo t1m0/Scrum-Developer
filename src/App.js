@@ -698,8 +698,8 @@ class App extends Component {
                 </div>
               </div>
             </div>
-			
-			<div>
+
+            <div>
               <div className="content-wrapper">
                 <div className="content-header">
                   <h1>Pair Programming</h1>
@@ -743,6 +743,7 @@ class App extends Component {
             <h3 id="codvsdev" className="App-intro">
               Coding vs. Developing
             </h3>
+            <img src="./images/coding_developing.png" width="90%" />
             <p>
               <b>Conclusion:</b> A coder could be a developer or a programmer,
               while programmers focus more on coding towards a specific
