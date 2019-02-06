@@ -67,8 +67,9 @@ li a,
   display: inline-block;
   color: white;
   text-align: left;
-  padding: 10px 30px;
+  padding: 10px 5px;
   text-decoration: none;
+  width: 200px;
 }
 
 li a:hover,
