@@ -751,6 +751,76 @@ class App extends Component {
             </p>
           </div>
         </div>
+
+        <div>
+          <h3 id="Quality Code in relation to Quality Software" align="center" className="App-intro">
+          Quality Code in relation to Quality Software
+          </h3>
+          <p>
+          Code quality can translate into how useful and maintainable your code is: high-quality code can be 
+          re-used and re-developed; low-quality code doesn’t last. <br />
+          Well-structured code, following language rules, is much easier to read and understand by different browsers and other <br />
+          developers. It is also more reliable and avoids future rework.
+            <br />
+          </p>
+          <p>
+            <table>
+              <tr>
+                <th>
+                <li>
+                what is code quality?<br />
+                    </li>
+                </th>
+                <th align="left">
+                  <ul>
+                    <li>
+                      --•	Readability, consistency
+                    </li>
+                    <br />
+                    <li>
+                      --•	Predictability, reliability, and robustness
+                    </li>
+                    <br />
+                    <li>
+                      --•	Maintainability and extensibility<br />
+                    </li>
+                  </ul>
+                </th>
+              </tr>
+            </table>
+          </p>
+
+          <p>
+            <table>
+              <tr>
+                <th>
+                <li>
+                Why does code quality really matter?
+                    </li>
+                </th>
+                <th align="left">
+                <ul>
+                    <li>
+                      --•	Easier to review, leading to a much lower development effort
+                    </li>
+                    <br />
+                    <li>
+                      --•	Easier to understand, maintain and extend
+                    </li>
+                    <br />
+                    <li>
+                      --•	Less prone to new bugs being introduced
+                    </li>
+                    </ul>
+                </th>
+              </tr>
+            </table>
+          </p>
+
+
+        </div>
+
+
       </div>
     );
   }
