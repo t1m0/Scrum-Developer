@@ -910,7 +910,9 @@ class App extends Component {
               <img src="./images/cc.jpg" alt="logo" />
             </div>
           </div>
-
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
         src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
         <p />
