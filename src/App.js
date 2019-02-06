@@ -828,6 +828,18 @@ class App extends Component {
               </div>
             </div>
 
+          <div>
+          <h3 id="Bug" className="App-intro">
+              Bug Definition / Bug tackling in Jira
+            </h3>
+            <img
+                    src="./images/bugDesc.png"
+                    alt="bugs"
+                    width="800"
+                    height="500"
+                  />
+
+          </div>
 
         </div>
 
