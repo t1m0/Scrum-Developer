@@ -698,6 +698,17 @@ class App extends Component {
                 </div>
               </div>
             </div>
+			
+			<div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Pair Programming</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Pair_programming.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
 
             <h3 id="CommitStandards" className="App-intro">
               Commit Standards
