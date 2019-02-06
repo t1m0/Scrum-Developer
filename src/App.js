@@ -963,7 +963,7 @@ class App extends Component {
               width="800"
               height="500"
             />
-            >>>>>>> 837447cb388101e96187d1608e2dc8ebf490c00c
+
           </div>
         </div>
 
