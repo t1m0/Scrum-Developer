@@ -776,9 +776,6 @@ class App extends Component {
             </h3>
             <img src="./images/coding_developing.png" width="90%" />
             <p>
-              <b>Conclusion:</b> A coder could be a developer or a programmer,
-              while programmers focus more on coding towards a specific
-              applications and developers could do everything all together.
             </p>
           </div>
         </div>
