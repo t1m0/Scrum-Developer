@@ -46,7 +46,7 @@ class App extends Component {
             </div>
           </li>
           <li class="dropdown">
-            <a href="#qualitycode" class="dropbtn">
+            <a href="#QualityCode" class="dropbtn">
               Quality Code
             </a>
             <div class="dropdown-content">
@@ -55,15 +55,14 @@ class App extends Component {
                 Quality Code in relation to Quality Software
               </a>
               <a href="#codvsdev">Coding vs. Developing</a>
-              <a href="#solid">SOLID</a>
             </div>
           </li>
           <li class="dropdown">
-            <a href="#agiletesting" class="dropbtn">
+            <a href="#T" class="dropbtn">
               Agile Testing
             </a>
             <div class="dropdown-content">
-              <a href="#bugs">Bugs</a>
+              <a href="#atdd">ATDD</a>
             </div>
           </li>
         </ul>
@@ -432,7 +431,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-
         <div>
           <div className="content-wrapper">
             <div className="content-header">
@@ -677,166 +675,91 @@ class App extends Component {
           </b>
         </p>
         <img src="./images/bduf.png" />
-
-        <h2 id="qualitycode">QUALITY CODE</h2>
-
         <div>
-          <div className="content-wrapper">
-            <div className="content-header">
-              <h1>Build Automation</h1>
-            </div>
-            <div className="content-description">
-              <img src="./images/ba.jpg" alt="logo" />
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div className="content-wrapper">
-            <div className="content-header">
-              <h1>Technical Debt</h1>
-            </div>
-            <div className="content-description">
-              <img src="./images/Technical Debt.jpg" alt="logo" />
-            </div>
-          </div>
+          <h2 id="QualityCode">QUALITY CODE</h2>
 
           <div>
             <div className="content-wrapper">
               <div className="content-header">
-                <h1>Pair Programming</h1>
+                <h1>Build Automation</h1>
               </div>
               <div className="content-description">
-                <img src="./images/Pair_programming.jpg" alt="logo" />
-                <div>
-                  <div className="content-wrapper">
-                    <div className="content-header">
-                      <h1>Code Coverage</h1>
-                    </div>
-                    <div className="content-description">
-                      <img src="./images/Code Coverage.jpg" alt="logo" />
-                    </div>
-                  </div>
-                </div>
+                <img src="./images/ba.jpg" alt="logo" />
+              </div>
+            </div>
 
-                <div>
-                  <div className="content-wrapper">
-                    <div className="content-header">
-                      <h1>Pair Programming</h1>
-                    </div>
-                    <div className="content-description">
-                      <img src="./images/Pair_programming.jpg" alt="logo" />
-                    </div>
-                    >>>>>>> 957ccc8f845b58f5f27bd484829e2078f0236b83
-                  </div>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Technical Debt</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Technical Debt.jpg" alt="logo" />
                 </div>
               </div>
-
-              <h3 id="CommitStandards" className="App-intro">
-                Commit Standards
-              </h3>
-              <p>
-                All users of GIT should follow the same guideline for commiting.
-                This makes it easier to understand why there is a commit for all
-                participants. <br />
-                The <b>Syntax</b> should look like this:
-              </p>
-              <table align="center">
-                <tr>
-                  <th>
-                    <img
-                      src="./images/syntax.PNG"
-                      alt="Syntax"
-                      width="317"
-                      height="120"
-                    />
-                  </th>
-                  <th>
-                    <img
-                      src="./images/types.jpg"
-                      alt="Types"
-                      width="800"
-                      height="300"
-                    />
-                  </th>
-                </tr>
-              </table>
-
-              <h3 id="codvsdev" className="App-intro">
-                Coding vs. Developing
-              </h3>
-              <p>
-                <b>Conclusion:</b> A coder could be a developer or a programmer,
-                while programmers focus more on coding towards a specific
-                applications and developers could do everything all together.
-              </p>
-              <h3 id="solid" className="App-intro">
-                SOLID
-              </h3>
-              <p>
-                SOLID is a mnemonic acronym for five design principles intended
-                to make software designs more understandable, flexible and
-                maintainable. They principles apply to any object-oriented
-                design, but also form a core philosophy for methodologies such
-                as agile development or adaptive software development.
-              </p>
-              <img src="./images/solid.png" heigt="600" width="400" />
-              <table align="center">
-                <tr>
-                  <th>
-                    <b>S</b>
-                  </th>{" "}
-                  <td>
-                    A class should have only a single responsibility (i.e. only
-                    changes to one part of the software's specification should
-                    be able to affect the specification of the class)
-                  </td>
-                </tr>
-                <tr>
-                  <th>
-                    <b>O</b>
-                  </th>
-                  <td>
-                    {" "}
-                    Objets or entities should be open for extension, but closed
-                    for modification
-                  </td>
-                </tr>
-                <tr>
-                  <th>
-                    <b>L</b>
-                  </th>
-                  <td>
-                    Objects in a program should be replaceable with instances of
-                    their subtypes without altering the correctness of that
-                    program (Let q(x) be a property provable about objects of x
-                    of type T. Then q(y) should be provable for objects y of
-                    type S where S is a subtype of T)
-                  </td>
-                </tr>
-                <tr>
-                  <th>
-                    <b>I</b>
-                  </th>
-                  <td>
-                    Many client-specific interfaces are better than one
-                    general-purpose interface (A client should never be forced
-                    to implement an interface that it doesn't use or clients
-                    shouldn't be forced to depend on methods they do not use)
-                  </td>
-                </tr>
-                <tr>
-                  <th>D</th>
-                  <td>
-                    Entities should depend upon abstractions, not concretions (t
-                    states that the high level module must not depend on the low
-                    level module, but they should depend on abstractions)
-                  </td>
-                </tr>
-              </table>
-              <img src="./images/solid2.png" heigt="800" width="600" />
             </div>
-            <h2 id="agiletesting">AGILE TESTING</h2>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>TDD</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/TDD.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Code Coverage</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Code Coverage.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Pair Programming</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Pair_programming.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+
+            <h3 id="CommitStandards" className="App-intro">
+              Commit Standards
+            </h3>
+            <p>
+              All users of GIT should follow the same guideline for commiting.
+              This makes it easier to understand why there is a commit for all
+              participants. <br />
+              The <b>Syntax</b> should look like this:
+            </p>
+            <table align="center">
+              <tr>
+                <th>
+                  <img
+                    src="./images/syntax.PNG"
+                    alt="Syntax"
+                    width="317"
+                    height="120"
+                  />
+                </th>
+                <th>
+                  <img
+                    src="./images/types.jpg"
+                    alt="Types"
+                    width="800"
+                    height="300"
+                  />
+                </th>
+              </tr>
+            </table>
+
             <h3 id="codvsdev" className="App-intro">
               Coding vs. Developing
             </h3>
@@ -848,82 +771,85 @@ class App extends Component {
             </p>
           </div>
         </div>
-
-        <h3
-          id="Quality Code in relation to Quality Software"
-          align="center"
-          className="App-intro"
-        >
-          Quality Code in relation to Quality Software
-        </h3>
-        <p>
-          Code quality can translate into how useful and maintainable your code
-          is: high-quality code can be re-used and re-developed; low-quality
-          code doesn’t last. <br />
-          Well-structured code, following language rules, is much easier to read
-          and understand by different browsers and other <br />
-          developers. It is also more reliable and avoids future rework.
-          <br />
-        </p>
-        <p>
-          <table>
-            <tr>
-              <th>
-                <li>
-                  what is code quality?
-                  <br />
-                </li>
-              </th>
-              <th align="left">
-                <ul>
-                  <li>--• Readability, consistency</li>
-                  <br />
-                  <li>--• Predictability, reliability, and robustness</li>
-                  <br />
+        <div>
+          <h3
+            id="Quality Code in relation to Quality Software"
+            align="center"
+            className="App-intro"
+          >
+            Quality Code in relation to Quality Software
+          </h3>
+          <p>
+            Code quality can translate into how useful and maintainable your
+            code is: high-quality code can be re-used and re-developed;
+            low-quality code doesn’t last. <br />
+            Well-structured code, following language rules, is much easier to
+            read and understand by different browsers and other <br />
+            developers. It is also more reliable and avoids future rework.
+            <br />
+          </p>
+          <p>
+            <table>
+              <tr>
+                <th>
                   <li>
-                    --• Maintainability and extensibility
+                    what is code quality?
                     <br />
                   </li>
-                </ul>
-              </th>
-            </tr>
-          </table>
-        </p>
+                </th>
+                <th align="left">
+                  <ul>
+                    <li>--• Readability, consistency</li>
+                    <br />
+                    <li>--• Predictability, reliability, and robustness</li>
+                    <br />
+                    <li>
+                      --• Maintainability and extensibility
+                      <br />
+                    </li>
+                  </ul>
+                </th>
+              </tr>
+            </table>
+          </p>
 
-        <p>
-          <table>
-            <tr>
-              <th>
-                <li>Why does code quality really matter?</li>
-              </th>
-              <th align="left">
-                <ul>
-                  <li>
-                    --• Easier to review, leading to a much lower development
-                    effort
-                  </li>
-                  <br />
-                  <li>--• Easier to understand, maintain and extend</li>
-                  <br />
-                  <li>--• Less prone to new bugs being introduced</li>
-                </ul>
-              </th>
-            </tr>
-          </table>
-        </p>
+          <p>
+            <table>
+              <tr>
+                <th>
+                  <li>Why does code quality really matter?</li>
+                </th>
+                <th align="left">
+                  <ul>
+                    <li>
+                      --• Easier to review, leading to a much lower development
+                      effort
+                    </li>
+                    <br />
+                    <li>--• Easier to understand, maintain and extend</li>
+                    <br />
+                    <li>--• Less prone to new bugs being introduced</li>
+                  </ul>
+                </th>
+              </tr>
+            </table>
+          </p>
 
-        <div>
-          <div className="content-wrapper">
-            <div className="content-header">
-              <h1>Static Code Analysis</h1>
-            </div>
-
-            <div className="content-description">
-              <img src="./images/sca.jpg" alt="logo" />
-            </div>
+          <div>
             <div className="content-wrapper">
               <div className="content-header">
-                <h1>Unit testing</h1>
+                <h1>Static Code Analysis</h1>
+              </div>
+              <div className="content-description">
+                <img src="./images/sca.jpg" alt="logo" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div className="content-wrapper">
+              <div className="content-header">
+                <h1>Unit Testing</h1>
               </div>
               <div className="content-description">
                 <img src="./images/ut.jpg" alt="logo" />
@@ -938,6 +864,17 @@ class App extends Component {
               </div>
               <div className="content-description">
                 <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
+              </div>
+            </div>
+
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Unit Test F.I.R.S.T</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Unit_Test_First.jpg" alt="logo" />
+                </div>
               </div>
             </div>
           </div>
@@ -963,26 +900,28 @@ class App extends Component {
               width="800"
               height="500"
             />
-
           </div>
         </div>
-
+        src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
+        <p />
+        -Since you test early and often, you quickly detect and resolve issues,
+        bugs, and defects before they become critical
+        <br />
+        -In each sprint you can put a new tag for a bug
+        <br />-<b>“iteration planning”</b> or <b>“sprint planning.”</b> you can
+        decide that each sprint, you’re going to devote some of your time to
+        fixing bugs
+        <br />
+        <br />
+        <img
+          src="./images/bugInScrum.jpg"
+          alt="bugs"
+          width="700"
+          height="400"
+        />
         <div>
-          <div className="content-wrapper">
-            <div className="content-header">
-              <h1>Reporting a bug</h1>
-            </div>
-            <div className="content-description">
-              <img src="./images/Reporting_a_Bug.jpg" alt="logo" />
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <h3 id="Bug" className="App-intro">
-            Bug Definition / Bug tackling in Jira
-          </h3>
-          <img src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
+          <h3 id="atdd">Acceptance Test-Driven Development</h3>
+          <img src="./images/atdd.png" width="80%" />
         </div>
       </div>
     );
