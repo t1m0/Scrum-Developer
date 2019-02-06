@@ -701,6 +701,16 @@ class App extends Component {
             <div>
               <div className="content-wrapper">
                 <div className="content-header">
+                  <h1>Types of Test</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/ToT.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
                   <h1>TDD</h1>
                 </div>
                 <div className="content-description">
