@@ -924,7 +924,6 @@ class App extends Component {
           <br></br>
           <br></br>
         </div>
-        src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
         <p />
         -Since you test early and often, you quickly detect and resolve issues,
         bugs, and defects before they become critical
