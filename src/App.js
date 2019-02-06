@@ -902,17 +902,7 @@ class App extends Component {
             />
           </div>
 
-          <div className="content-wrapper">
-            <div className="content-header">
-              <h1>Clean Code</h1>
-            </div>
-            <div className="content-description">
-              <img src="./images/cc.jpg" alt="logo" />
-            </div>
-          </div>
-          <br></br>
-          <br></br>
-          <br></br>
+          
         </div>
         src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
         <p />
@@ -935,6 +925,19 @@ class App extends Component {
           <h3 id="atdd">Acceptance Test-Driven Development</h3>
           <img src="./images/atdd.png" width="80%" />
         </div>
+
+        <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Clean Code</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cc.jpg" alt="logo" />
+            </div>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          
       </div>
     );
   }
