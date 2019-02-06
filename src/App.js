@@ -702,6 +702,16 @@ class App extends Component {
             <div>
               <div className="content-wrapper">
                 <div className="content-header">
+                  <h1>Types of Test</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/ToT.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
                   <h1>TDD</h1>
                 </div>
                 <div className="content-description">
@@ -902,8 +912,19 @@ class App extends Component {
               height="500"
             />
           </div>
+
+          <div className="content-wrapper">
+            <div className="content-header">
+              <h1>Clean Code</h1>
+            </div>
+            <div className="content-description">
+              <img src="./images/cc.jpg" alt="logo" />
+            </div>
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
-        src="./images/bugDesc.png" alt="bugs" width="800" height="500" />
         <p />
         -Since you test early and often, you quickly detect and resolve issues,
         bugs, and defects before they become critical
@@ -1001,6 +1022,29 @@ class App extends Component {
           <img src="./images/testingcompared.png" width="80%" />
           <img src="./images/testing_compair_table.png" width="80%" />
           <p />
+        </div>
+
+        <div>
+        <h1 id="devAndTest" className="App-intro">
+              Developing Test &#38; Practises
+            </h1>
+            <p>
+            </p>
+            <img
+          src="./images/UnitTest.jpg"
+          alt="bugs"
+          width="800"
+          height="500"
+        />
+        <p></p>
+        <img
+          src="./images/sadhappy.jpg"
+          alt="bugs"
+          width="800"
+          height="600"
+        />
+
+
         </div>
       </div>
     );
