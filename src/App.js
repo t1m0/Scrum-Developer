@@ -58,11 +58,12 @@ class App extends Component {
             </div>
           </li>
           <li class="dropdown">
-            <a href="#T" class="dropbtn">
+            <a href="#agiletesting" class="dropbtn">
               Agile Testing
             </a>
             <div class="dropdown-content">
               <a href="#atdd">ATDD</a>
+              <a href="#testingcompared">Tesing Compared</a>
             </div>
           </li>
         </ul>
@@ -919,9 +920,87 @@ class App extends Component {
           width="700"
           height="400"
         />
+        <h3 id="codvsdev" className="App-intro">
+          Coding vs. Developing
+        </h3>
+        <p>
+          <b>Conclusion:</b> A coder could be a developer or a programmer, while
+          programmers focus more on coding towards a specific applications and
+          developers could do everything all together.
+        </p>
+        <h3 id="solid" className="App-intro">
+          SOLID
+        </h3>
+        <p>
+          SOLID is a mnemonic acronym for five design principles intended to
+          make software designs more understandable, flexible and maintainable.
+          They principles apply to any object-oriented design, but also form a
+          core philosophy for methodologies such as agile development or
+          adaptive software development.
+        </p>
+        <img src="./images/solid.png" heigt="600" width="400" />
+        <table align="center">
+          <tr>
+            <th>
+              <b>S</b>
+            </th>{" "}
+            <td>
+              A class should have only a single responsibility (i.e. only
+              changes to one part of the software's specification should be able
+              to affect the specification of the class)
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>O</b>
+            </th>
+            <td>
+              {" "}
+              Objets or entities should be open for extension, but closed for
+              modification
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>L</b>
+            </th>
+            <td>
+              Objects in a program should be replaceable with instances of their
+              subtypes without altering the correctness of that program (Let
+              q(x) be a property provable about objects of x of type T. Then
+              q(y) should be provable for objects y of type S where S is a
+              subtype of T)
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <b>I</b>
+            </th>
+            <td>
+              Many client-specific interfaces are better than one
+              general-purpose interface (A client should never be forced to
+              implement an interface that it doesn't use or clients shouldn't be
+              forced to depend on methods they do not use)
+            </td>
+          </tr>
+          <tr>
+            <th>D</th>
+            <td>
+              Entities should depend upon abstractions, not concretions (t
+              states that the high level module must not depend on the low level
+              module, but they should depend on abstractions)
+            </td>
+          </tr>
+        </table>
+        <img src="./images/solid2.png" heigt="800" width="600" />
         <div>
+          <h2 id="agiletesting">Agile Testing</h2>
           <h3 id="atdd">Acceptance Test-Driven Development</h3>
           <img src="./images/atdd.png" width="80%" />
+          <h2 id="testingcompared">Testing Compared</h2>
+          <img src="./images/testingcompared.png" width="80%" />
+          <img src="./images/testing_compair_table.png" width="80%" />
+          <p />
         </div>
       </div>
     );
