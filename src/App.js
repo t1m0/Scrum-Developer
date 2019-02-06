@@ -698,6 +698,16 @@ class App extends Component {
                 </div>
               </div>
             </div>
+            <div>
+              <div className="content-wrapper">
+                <div className="content-header">
+                  <h1>Code Coverage</h1>
+                </div>
+                <div className="content-description">
+                  <img src="./images/Code Coverage.jpg" alt="logo" />
+                </div>
+              </div>
+            </div>
 
             <div>
               <div className="content-wrapper">
