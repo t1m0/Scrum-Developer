@@ -874,15 +874,30 @@ class App extends Component {
               Bug Definition / Bug tackling in Jira
             </h3>
             <img
-              src="./images/bugDesc.png"
-              alt="bugs"
-              width="800"
-              height="500"
-            />
+
+                    src="./images/bugDesc.png"
+                    alt="bugs"
+                    width="800"
+                    height="500"
+                  />
+              <p></p>
+             
+               -Since you test early and often, you quickly detect and resolve issues, bugs, and defects before they become critical<br></br>
+               -In each sprint you can put a new tag for a bug<br></br>
+               -<b>“iteration planning”</b> or <b>“sprint planning.”</b>  you can decide that each sprint, you’re going to devote some of your time to fixing bugs<br></br>
+             
+              <br></br>
+             <img
+                    src="./images/bugInScrum.jpg"
+                    alt="bugs"
+                    width="700"
+                    height="400"
+                  />
           </div>
           <div>
             <h3 id="atdd">Acceptance Test-Driven Development</h3>
             <img src="./images/atdd.png" width="80%" />
+
           </div>
         </div>
       </div>
