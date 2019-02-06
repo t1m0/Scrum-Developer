@@ -860,6 +860,17 @@ class App extends Component {
               </div>
             </div>
 
+          <div className="content-wrapper">
+				    <div className="content-header">
+					    <h1>Code Quality</h1>
+				    </div>
+            <div className="content-description">
+              <img src='./images/cq1.jpg' alt="logo" />
+              <br></br>
+              <img src='./images/cq2.jpg' alt="logo" />
+            </div>
+          </div>
+
           <div>
           <h3 id="Bug" className="App-intro">
               Bug Definition / Bug tackling in Jira
